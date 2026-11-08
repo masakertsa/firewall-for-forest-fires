@@ -19,6 +19,9 @@ Unlike traditional vertical firewalls that require deep concrete foundations and
 
 The system completely eliminates external metallic tracks, bolts, or fasteners, which would warp, seize, or fail under extreme thermal expansion. Instead, all structural mechanics rely on material-saving gravity locks:
 
+![QuartzGate Interlocking Lamellae Geometry](interlocking-lamellae.png)
+
+
 ```text
 Side Profile / Structural Assembly:
          / 
