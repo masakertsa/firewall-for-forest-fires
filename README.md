@@ -274,4 +274,4 @@ Unlike standard commercial retardants that leave toxic residues, the selected ch
 
 📄 License
 
-This project is licensed under the MIT License (CC0 Concept Realization) – preserving the original architecture credited to the creator.
+This project is licensed under the MIT License – Copyright (c) 2026 masakertsa.
