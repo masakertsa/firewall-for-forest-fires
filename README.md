@@ -28,6 +28,7 @@ Top-Down Cross-Section (Single 1.0 m Quartz Lamella & Low-Profile Hourglass Key)
                             ════════════════════════ <-- 3. Matching Beam Groove
                                                            (Structural Horizontal Beam)
 ```
+📐 **CAD Drawing:** [Download Tri-Feature Lamella & Hourglass Lock CAD (`quartzgate-lamella-lock-key.dxf`)](https://github.com)
 
 ## 📐 1.2 Internal Post-and-Beam Core
 
