@@ -79,7 +79,6 @@ NORTH WALL (Fire / Wind Shield)
 - **8-Meter Geometric Overlap:** The North and South wall lines overlap parallel to each other for a length of **8.0 meters**. This completely eliminates any direct line-of-sight or straight wind tunnel through the barrier.
 - **Unrestricted Heavy-Vehicle & Wildlife Clearance:** Instead of narrow, claustrophobic bottlenecks, the perpendicular spacing between the overlapping North and South walls is wide enough to allow heavy forestry machinery, fire trucks, and large antlered wildlife to drive or migrate through effortlessly.
 - **Aerodynamic Ember Trap:** When a storm-driven firefront approaches from the south, airborne embers and radiant heat collide directly against the overlapping 8-meter section of the North wall. Forced to make two sharp 90-degree turns through a wide pressure-drop zone, embers lose momentum and drop harmlessly to the ground before reaching the safe zone.
-*   **Aerodynamic Kinetic Trap:** When a firefront driven by storm winds blasts through the 2-meter outer portal, it hits the 8-meter open expansion zone. Air pressure and velocity collapse instantly due to the sudden volumetric expansion (acting as a plenum/blast buffer). Airborne embers fly straight ahead and crash into the opposite 6-meter solid quartz wall, dropping harmlessly to the ground, unable to turn diagonally around the corner into the safe zone.
 
 ---
 
@@ -142,8 +141,8 @@ Suppression Strategy (Top-Down Vector):
 ## 7.2. Passive Hydrological Infrastructure & Gravity-Fed Supply Lines
 
 The water delivery system ensures high survivability through topographic placement and protected subterranean routing:
-• A-Frame Utility Corridor: Mainlines run beneath the hollow A-frame structure, shielded by the quartz wall from heat, falling timber, and freezing.
-• Topographic Gravity Feed: Elevated reservoirs utilize natural geography to generate hydrostatic pressure without relying on vulnerable electrical pumps or generators.
+A-Frame Utility Corridor: Mainlines run beneath the hollow A-frame structure, shielded by the quartz wall from heat, falling timber, and freezing.
+Topographic Gravity Feed: Elevated reservoirs utilize natural geography to generate hydrostatic pressure without relying on vulnerable electrical pumps or generators.
 
 ```text
 Hydrological Flow (Cross-Section Profile):
@@ -172,9 +171,7 @@ Hydrological Flow (Cross-Section Profile):
 *   **Fail-Safe Non-Electric Delivery:** By using gravity as the primary propellant, the system can launch high-velocity pre-wetting vectors without relying on mechanical generators, electrical grids, or booster pumps, which are highly prone to failure during a wildfire crisis. If space or elevation is restricted around the center circle, modular subterranean tanks are integrated directly inside the hub's foundation matrix.
 ```
 
----
-
-📡 8. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
+## 📡 8. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
 
 To operate independently of vulnerable power grids and automated AI logic, the command hub uses a low-voltage, human-verified framework:
 
