@@ -174,9 +174,9 @@ Hydrological Flow (Cross-Section Profile):
 
 ---
 
-## 📡 8. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
+📡 8. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
 
-To completely bypass dependency on vulnerable regional power grids and complex, melt-prone automated AI logic, the central command hub operates on a human-verified, low-voltage monitoring framework:
+To operate independently of vulnerable power grids and automated AI logic, the command hub uses a low-voltage, human-verified framework:
 
 ```text
 Command Tower & Visual Signaling Matrix (Side Profile):
