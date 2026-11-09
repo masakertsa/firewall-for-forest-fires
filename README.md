@@ -311,6 +311,14 @@ Unlike standard commercial retardants that leave toxic residues, the selected ch
 *   **Nutrient Conversion:** Once the fire crisis is averted and seasonal rains wash the mineral crystals off the canopy into the forest floor, Ammonium Sulfate breaks down into natural nitrogen and sulfur matrices. 
 *   **Soil Recovery Catalyst:** Rather than poisoning the ecosystem, the residual retardant transforms into a high-grade agricultural fertilizer. This actively stimulates the surrounding root networks and accelerates the bio-regeneration of the local flora, ensuring the forest recovers at an accelerated rate post-incident.
 
+## 🐍 11. Parametric Python Tools (BOM Calculator & CAD Generator)
+
+The repository includes two standalone, zero-dependency Python scripts for scaling the architecture to any forest perimeter:
+
+- **`quartzgate_calculator.py`:** Computes fused silica lamellae count, internal steel post-and-beam tonnage, hourglass X-keys, ground shoes, and CAPEX vs. wildfire loss benchmarks (`python quartzgate_calculator.py --km 10 --canopy 20 --thickness 50`).
+- **`quartzgate_dxf_generator.py`:** Generates a 1:1 millimeter DXF cross-section file of the tri-feature lamella and hourglass lock (`python quartzgate_dxf_generator.py --width 1000 --thickness 50`).
+
+
 📄 License
 
 This project is licensed under the MIT License – Copyright (c) 2026 masakertsa.
