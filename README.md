@@ -170,6 +170,7 @@ Hydrological Flow (Cross-Section Profile):
 *   **Topographic Gravity Feed:** Whenever local geography permits, main water storage reservoirs are constructed in high-altitude sectors relative to the central command hub. This height differential utilizes natural topography to generate immense hydrostatic pressure.
 *   **Fail-Safe Non-Electric Delivery:** By using gravity as the primary propellant, the system can launch high-velocity pre-wetting vectors without relying on mechanical generators, electrical grids, or booster pumps, which are highly prone to failure during a wildfire crisis. If space or elevation is restricted around the center circle, modular subterranean tanks are integrated directly inside the hub's foundation matrix.
 ```
+---
 
 ## 📡 8. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
 
