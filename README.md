@@ -62,12 +62,9 @@ Installation Tool (Pilot Tool) Operating Principle:
 *   **Root Matrix Preservation:** The 50 cm wedge slices through small root networks rather than tearing them out like heavy excavators. This preserves the surrounding soil integrity and natural root binding.
 
 ---
-
 ## 🦌 3. Wide-Clearance 8m Overlapping Passages (Non-Mechanical Portals)
 
-The system features zero moving doors, hinges, mechanical locks, or electronic components. Access control and fire containment are governed entirely by a wide-clearance overlapping wall geometry:
-
-Top-Down View (8-Meter Parallel Overlap & Wide Transit Lane):
+The system relies on a zero-mechanical-part design governed by an **8-meter parallel wall overlap**, eliminating direct line-of-sight, wind tunnels, and narrow bottlenecks while allowing heavy vehicles and wildlife to pass through safely. It also functions as an **aerodynamic ember trap** that neutralizes storm-driven firefronts.
 
 ```text
 NORTH WALL (Fire / Wind Shield)
@@ -105,14 +102,13 @@ The system strictly utilizes **Fused Silica / Quartz Glass** as its primary stru
 
 ---
 
+## 👁 6. Sensory Integration & Environmental Base Seal
 
-## 👁️ 6. Sensory Integration & Environmental Base Seal
+Rakenteen harmonisoimiseksi osaksi paikallista ekosysteemiä kokonaisuus hyödyntää erikoistettua suojakerrosta luontoa varten:
 
-To seamlessly harmonize the structural footprint with the local ecosystem while maintaining operational reliability, the framework incorporates a specialized barrier-to-nature transition that protects local wildlife:
-
-*   **Sensory and Biomimetic Integration:** The high optical transparency of quartz glass ensures that the barrier does not create a dark, ominous visual wall within the wilderness. The transparent spans preserve natural forest lighting conditions and minimize wildlife behavioral disruption, while large fauna utilize the 8-meter labyrinth portals for natural migration.
-*   **UV Bird-Safe Coating:** To prevent high-velocity bird collisions without sacrificing human aesthetics, the quartz surface features a permanent, factory-fused ultraviolet (UV) reflective pattern (e.g., spider-web or matrix pattern). Because avian vision deeply registers UV spectrums while human vision does not, the coating acts as a bright, highly visible physical hazard warning for flying birds while remaining 100% transparent to humans. The mineral-based oxide pattern is molecularly baked into the quartz glass, making it completely immune to outdoor weather degradation and forest fire temperatures.
-*   **Environmental Base Seal:** Volcanic basalt fiber blankets or localized natural clay matrices that deform under gravity to anchor the glass-to-ground interface, sealing gaps against micro-drafts and surface-level heat vectors without disrupting micro-fauna habitats.
+- **Sensorinen ja biomimeettinen integraatio:** Kvartsilasin korkea optinen läpinäkyvyys estää tummien seinämien muodostumisen luontoon, säilyttäen luonnollisen valaistuksen ja mahdollistaen suurten eläinten vaelluksen 8 metrin pituisten päällekkäisten käytävien kautta.
+- **UV-linnuille turvallinen pinnoite:** Pysyvä, UV-heijastava kuviointi toimii linnuille varoituksena estäen törmäyksiä, mutta on täysin läpinäkyvä ihmisille ja säänkestävä.
+- **Ympäristön pohjatiiviste:** Vulkaaniset basattikuituhuovat tai savimatriisit ankkuroivat lasin maahan ja tiivistävät aukot häiritsemättä pieneliöstöä.
 
 ---
 
