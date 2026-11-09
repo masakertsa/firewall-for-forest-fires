@@ -127,29 +127,8 @@ NORTH WALL (Fire / Wind Shield)
 The forest region is partitioned by radial, star-patterned QuartzGate walls extending outward from a central circular command and monitor hub (equipped with automated water cannons). The sectors are mapped according to dominant regional wind patterns (e.g., south/southwesterly winds):
 ## ⛺ 4. Meteorological Funnel Sectoring & Risk Minimization
 
-Alue jaetaan säteittäisillä QuartzGate-muureilla keskeisen komentokeskuksen ympärille vallitsevien tuulten mukaan:
-
-![QuartzGate Radial Funnel Sectoring & Central Hub](quartzgate-macro-layout(1).png)
-
 Top-Down Macro Layout (Radial Funnel Sectoring & Central Command Hub):
-```text
-                         N (Downwind — Campsite & Recreation Zone ⛺)
-                         \                 |                 /
-                          \   SECTOR 1     |    SECTOR 2    /
-                           \ (Safe Zone)   |  (Safe Zone)  /
-                            \              |              /
-                             \      ╔══════╧══════╗      /
-  W ═══════════════           \     ║             ║     /           ═══════════════ E
-               ════════════════\════╣ CENTRAL HUB ╠════/════════════════
-               (8m Overlap)    /    ║  (Cannons)  ║    \    (8m Overlap)
-                              /     ╚══════╤══════╝     \
-                             /             |             \
-                            /   SECTOR 4   |   SECTOR 3   \
-                           / (Fire Funnel) | (Fire Funnel) \
-                          /        🔥      |       🔥       \
-                         /     (Prevailing Wind Vector ↗)    \
-                         S (Upwind — High-Risk Forest Perimeter)
-```
+![QuartzGate Radial Funnel Sectoring & Central Hub](quartzgate-macro-layout(1).png)
 
 *   **The Funnel Effect:** Sectors tapering inward from the outer perimeter force the advancing firefront into a narrowing funnel. This compresses the fire's surface area to its absolute minimum, allowing the central water cannons to concentrate their entire payload directly into the choke point rather than sweeping across a wide arc.
 *   **Wind-Aligned Campsite Sectoring:** Public camping and recreation zones are strictly restricted to downwind (northern/northeastern) sectors relative to the main forest body. If human negligence triggers a fire, the prevailing winds carry the embers and smoke directly *outward* toward the empty outer perimeter, completely neutralizing the risk of destroying the core reservation or the automated command hub.
