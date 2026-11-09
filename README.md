@@ -63,23 +63,24 @@ Installation Tool (Pilot Tool) Operating Principle:
 
 ---
 
-## 🦌 3. Non-Mechanical Offset Portals & 8m Labyrinth Passages
+## 🦌 3. Wide-Clearance 8m Overlapping Passages (Non-Mechanical Portals)
 
-The system features zero moving doors, hinges, mechanical locks, or electronic components. Access control and fire containment are governed entirely by spatial geometry and fluid dynamics:
+The system features zero moving doors, hinges, mechanical locks, or electronic components. Access control and fire containment are governed entirely by a wide-clearance overlapping wall geometry:
 
+Top-Down View (8-Meter Parallel Overlap & Wide Transit Lane):
 ```text
-Top-Down View (8-Meter Diagonal Non-Mechanical Cross-Portal):
-
-               OUTER RING / FIRE SIDE (30 m/s Storm Wind 💨)
-═══════════════════════[ 2m PORTAL ]═══════════════════════ [ 6m SOLID WALL ] ═══════════
-                         \
-                          \  <-- Ultra-gentle and long 8-meter diagonal transit lane.
-                           \     Maintenance trucks and large antlered wildlife run straight through.
-                            \
-                             v
-═══════════════ [ 6m SOLID WALL ] ═══════════════════════[ 2m PORTAL ]═══════════════════
-               INNER RING / SAFE SIDE (Safe Campsites ⛺)
+NORTH WALL (Fire / Wind Shield)
+══════════════════════════════════════╗
+                                      ║  <-- Wide Vehicle & Wildlife Lane
+                                      ║      (Full clearance for heavy trucks)
+                         ╔════════════╩══════════════════════════════
+                         ║<--- 8m --->│
+                         SOUTH WALL (Outer Perimeter)
 ```
+
+- **8-Meter Geometric Overlap:** The North and South wall lines overlap parallel to each other for a length of **8.0 meters**. This completely eliminates any direct line-of-sight or straight wind tunnel through the barrier.
+- **Unrestricted Heavy-Vehicle & Wildlife Clearance:** Instead of narrow, claustrophobic bottlenecks, the perpendicular spacing between the overlapping North and South walls is wide enough to allow heavy forestry machinery, fire trucks, and large antlered wildlife to drive or migrate through effortlessly.
+- **Aerodynamic Ember Trap:** When a storm-driven firefront approaches from the south, airborne embers and radiant heat collide directly against the overlapping 8-meter section of the North wall. Forced to make two sharp 90-degree turns through a wide pressure-drop zone, embers lose momentum and drop harmlessly to the ground before reaching the safe zone.
 
 *   **Double-Wide 2.0 m Access Portal:** At transit points, two 1.0-meter standard glass elements are omitted from both the front and rear wall lines. This ensures unobstructed passage for maintenance vehicles, ATVs, and large antlered wildlife that instinctively avoid narrow traps.
 *   **8-Meter Diagonal Clearance:** The inner and outer wall lines are spaced exactly 8 meters apart. This depth allows an exceptionally gentle, near-straight driving line for clearing vehicles, eliminating the need for sharp 90-degree turns.
