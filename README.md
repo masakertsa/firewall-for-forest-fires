@@ -104,17 +104,17 @@ The system strictly utilizes **Fused Silica / Quartz Glass** as its primary stru
 
 ## 👁 6. Sensory Integration & Environmental Base Seal
 
-Rakenteen harmonisoimiseksi osaksi paikallista ekosysteemiä kokonaisuus hyödyntää erikoistettua suojakerrosta luontoa varten:
+To harmonize the structure with the local ecosystem, the design implements a specialized nature-protective barrier:
 
-- **Sensorinen ja biomimeettinen integraatio:** Kvartsilasin korkea optinen läpinäkyvyys estää tummien seinämien muodostumisen luontoon, säilyttäen luonnollisen valaistuksen ja mahdollistaen suurten eläinten vaelluksen 8 metrin pituisten päällekkäisten käytävien kautta.
-- **UV-linnuille turvallinen pinnoite:** Pysyvä, UV-heijastava kuviointi toimii linnuille varoituksena estäen törmäyksiä, mutta on täysin läpinäkyvä ihmisille ja säänkestävä.
-- **Ympäristön pohjatiiviste:** Vulkaaniset basattikuituhuovat tai savimatriisit ankkuroivat lasin maahan ja tiivistävät aukot häiritsemättä pieneliöstöä.
+- **Sensory and Biomimetic Integration:** High optical transparency in the quartz glass prevents dark walls in the environment, maintaining natural lighting and allowing large animals to migrate through 8-meter overlapping corridors.
+- **UV Bird-Safe Coating:** A permanent, UV-reflective pattern warns birds to prevent collisions while remaining completely transparent to humans and weather-resistant.
+- **Environmental Base Seal:** Volcanic basalt fiber blankets or clay matrices anchor the glass to the ground and seal gaps without disturbing microfauna.
 
 ---
 
-### 7.1. Automated Active Suppression & Pre-Wetting Choke Logic
+## 7.1. Automated Active Suppression & Pre-Wetting Choke Logic
 
-The central circular command hub does not engage in reactive suppression (spraying water directly onto active high-temperature flames, which leads to instant evaporation loss). Instead, it operates on a predictive **Tactical Pre-Wetting Framework**:
+The central circular command hub utilizes a predictive Tactical Pre-Wetting Framework rather than reactive spraying, channeling and saturating target zones ahead of advancing firefronts to prevent ignition and starve the fire of energy.
 
 ```text
 Suppression Strategy (Top-Down Vector):
@@ -139,9 +139,11 @@ Suppression Strategy (Top-Down Vector):
 
 ---
 
-### 7.2. Passive Hydrological Infrastructure & Gravity-Fed Supply Lines
+## 7.2. Passive Hydrological Infrastructure & Gravity-Fed Supply Lines
 
-The water supply for the automated cannons is engineered for absolute survivability, relying on topographic placement and protected subterranean routing:
+The water delivery system ensures high survivability through topographic placement and protected subterranean routing:
+• A-Frame Utility Corridor: Mainlines run beneath the hollow A-frame structure, shielded by the quartz wall from heat, falling timber, and freezing.
+• Topographic Gravity Feed: Elevated reservoirs utilize natural geography to generate hydrostatic pressure without relying on vulnerable electrical pumps or generators.
 
 ```text
 Hydrological Flow (Cross-Section Profile):
