@@ -70,19 +70,17 @@ The system features zero moving doors, hinges, mechanical locks, or electronic c
 Top-Down View (8-Meter Parallel Overlap & Wide Transit Lane):
 ```text
 NORTH WALL (Fire / Wind Shield)
-══════════════════════════════════════╗
-                                      ║  <-- Wide Vehicle & Wildlife Lane
-                                      ║      (Full clearance for heavy trucks)
-                         ╔════════════╩══════════════════════════════
-                         ║<--- 8m --->│
+══════════════════════════════════════
+                                        <-- Wide Vehicle & Wildlife Lane
+                                             (Full clearance for heavy trucks)
+                          ══════════════════════════════════════════
+                          <--- 8m ---> overlap distance
                          SOUTH WALL (Outer Perimeter)
 ```
 
 - **8-Meter Geometric Overlap:** The North and South wall lines overlap parallel to each other for a length of **8.0 meters**. This completely eliminates any direct line-of-sight or straight wind tunnel through the barrier.
 - **Unrestricted Heavy-Vehicle & Wildlife Clearance:** Instead of narrow, claustrophobic bottlenecks, the perpendicular spacing between the overlapping North and South walls is wide enough to allow heavy forestry machinery, fire trucks, and large antlered wildlife to drive or migrate through effortlessly.
 - **Aerodynamic Ember Trap:** When a storm-driven firefront approaches from the south, airborne embers and radiant heat collide directly against the overlapping 8-meter section of the North wall. Forced to make two sharp 90-degree turns through a wide pressure-drop zone, embers lose momentum and drop harmlessly to the ground before reaching the safe zone.
-
-*   **Double-Wide 2.0 m Access Portal:** At transit points, two 1.0-meter standard glass elements are omitted from both the front and rear wall lines. This ensures unobstructed passage for maintenance vehicles, ATVs, and large antlered wildlife that instinctively avoid narrow traps.
 *   **8-Meter Diagonal Clearance:** The inner and outer wall lines are spaced exactly 8 meters apart. This depth allows an exceptionally gentle, near-straight driving line for clearing vehicles, eliminating the need for sharp 90-degree turns.
 *   **Aerodynamic Kinetic Trap:** When a firefront driven by storm winds blasts through the 2-meter outer portal, it hits the 8-meter open expansion zone. Air pressure and velocity collapse instantly due to the sudden volumetric expansion (acting as a plenum/blast buffer). Airborne embers fly straight ahead and crash into the opposite 6-meter solid quartz wall, dropping harmlessly to the ground, unable to turn diagonally around the corner into the safe zone.
 
