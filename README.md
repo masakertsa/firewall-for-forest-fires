@@ -8,6 +8,54 @@ An open-source, 100% non-electric, non-mechanical, and biomimetic forestry frame
 
 Unlike traditional vertical firewalls that require deep concrete foundations and risk collapse under intense wind loads, QuartzGate utilizes a self-supporting **A-frame triangular geometry** leaning at a **60-degree angle** relative to the ground. 
 
+### 2.2. Tri-Feature Quartz Lamella & Hourglass (X-Key) Wind-Lock
+
+To prevent wind suction (negative pressure) from pulling the glass panels outward without drilling holes, bolts, or exposing fasteners to extreme heat, each fused silica lamella integrates three cast-in geometric features secured by a low-profile symmetrical **hourglass (X-profile) wedge key**:
+
+Top-Down Cross-Section (Single 1.0 m Quartz Lamella & Low-Profile Hourglass Key):
+```text
+  FIRE-FACING EXTERIOR (1000°C+ Thermal Zone 🔥 — 100% Smooth, Zero Fasteners)
+  ═════════════════════════════════════════════════════════════════════════════
+   ┌─────────────────────────────────────────────────────────────────────────┐
+   │                                                                         │
+  ═╡  MALE                                                           FEMALE  ╞═
+  ═╡ TONGUE                 FUSED SILICA LAMELLA                   U-GROOVE  ╞═
+   │  (Side)                         \‾‾‾‾‾/                        (Side)   │
+   └──────────────────────────────────)   (──────────────────────────────────┘
+                                     /     \   <-- 2. Low-Profile Hourglass Key
+  SHELTERED INTERIOR                /_______\         (Preserves glass thickness)
+  (A-Frame Cavity)
+                            ════════════════════════ <-- 3. Matching Beam Groove
+                                                           (Structural Horizontal Beam)
+```
+
+## 📐 1.1 Internal Post-and-Beam Core
+
+QuartzGate utilizes a self-supporting **A-frame triangular geometry** at a **60-degree angle**, reinforced by a sheltered internal post-and-beam skeleton.
+
+Side Cross-Section (A-Frame & Internal Support):
+```text
+          /\         <-- Scissor-overlapped quartz apex (no glass fasteners)
+         /  \
+        /    \
+  ═════/══════\═════ <-- Horizontal cross-beam (connected to center post)
+      /   ||   \
+     /    ||    \    <-- Quartz lamellae locked via internal keys
+    /     ||     \
+═══/══════╩══════\══ [ GROUND SUBSTRATE ]
+  [██]          [██] <-- 60° Ground Shoes
+```
+
+- **Height Calibration ($H_w$):** Calculated at 1.25 × local canopy height to intercept direct flame contact and crown fire vectors.
+- **Internal Post-and-Beam Skeleton (Zero Glass Penetration):** Vertical center posts and horizontal cross-beams carry structural loads internally. No holes, bolts, or external brackets touch the quartz glass.
+- **Interlocking Wall Mass & Wind Sheltering:** 1.0-meter quartz lamellae feature continuous tongue-and-groove interlocks, acting as a unified wall combined with natural forest canopy wind-breaking.
+- **The Scissor-Overlapped Ridge & Chimney Effect:** Opposing 60-degree quartz planks cross at the apex for independent settling, while the hollow interior acts as a pressure-venting chimney to neutralize embers.
+
+- **Continuous Interlocking Mass (Male & Female Joints):** The side edges feature a straight tongue-and-groove interlock that binds adjacent 1.0 m panels into a massive, continuous structural wall capable of resisting heavy forest wind loads.
+- **Shallow, Low-Stress Internal Dovetail Groove:** The sheltered interior face of the glass features a shallow molded undercut dovetail groove (`\‾‾‾‾‾/`). Keeping the groove compact preserves over 85–90% of the panel's structural cross-section, preventing stress concentrations while keeping the fire-facing exterior 100% smooth.
+- **Flush-Waist Hourglass (X-Key) Lock:** Once the glass panel rests directly against the inner horizontal beam, a loose, symmetrical hourglass-shaped wedge key is slid vertically into the matching dovetail grooves. Its narrowest waist aligns flush with the glass-to-beam contact plane, locking the panel tightly against both wind pressure and suction without bolts, tools, or thermal expansion stress.
+
+
 *   **Height Calibration (\(H_w\)):** Dynamically calculated at 1.25 × the local canopy height to completely intercept direct flame contact and crown fire vectors.
 *   **The Scissor-Overlapped Ridge:** To eliminate any risk of structural binding, crushing, or mechanical failure caused by asymmetrical terrain variations, the peak of the A-frame avoids a rigid butt-joint. The left and right walls are manufactured as standard-length, overlapping quartz glass planks that cross each other at the apex in a scissor configuration.
 *   **Vertical Center Support:** The angled walls lean against a central vertical quartz glass or reinforced concrete pillar (I-beam). This central column carries all vertical loads (such as heavy winter snow accumulation) and allows opposing wall elements to slide vertically and independently as the terrain shifts.
