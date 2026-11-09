@@ -45,21 +45,12 @@ Side Cross-Section (A-Frame & Internal Support):
 ═══/══════╩══════\══ [ GROUND SUBSTRATE ]
   [██]          [██] <-- 60° Ground Shoes
 ```
-
-- **Height Calibration ($H_w$):** Calculated at 1.25 × local canopy height to intercept direct flame contact and crown fire vectors.
-- **Internal Post-and-Beam Skeleton (Zero Glass Penetration):** Vertical center posts and horizontal cross-beams carry structural loads internally. No holes, bolts, or external brackets touch the quartz glass.
-- **Interlocking Wall Mass & Wind Sheltering:** 1.0-meter quartz lamellae feature continuous tongue-and-groove interlocks, acting as a unified wall combined with natural forest canopy wind-breaking.
-- **The Scissor-Overlapped Ridge & Chimney Effect:** Opposing 60-degree quartz planks cross at the apex for independent settling, while the hollow interior acts as a pressure-venting chimney to neutralize embers.
-
-- **Continuous Interlocking Mass (Male & Female Joints):** The side edges feature a straight tongue-and-groove interlock that binds adjacent 1.0 m panels into a massive, continuous structural wall capable of resisting heavy forest wind loads.
+- **Height Calibration ($H_w$):** Dynamically calculated at 1.25 × the local canopy height to completely intercept direct flame contact and crown fire vectors.
+- **Internal Post-and-Beam Skeleton (Zero Glass Penetration):** Vertical center posts and horizontal cross-beams carry all vertical and lateral loads internally. No holes, bolts, or external brackets touch the quartz glass.
+- **Continuous Interlocking Mass & Wind Sheltering:** Adjacent 1.0 m quartz lamellae feature straight tongue-and-groove interlocks that bind them into a massive, continuous structural wall, reinforced by natural forest canopy wind-breaking.
 - **Shallow, Low-Stress Internal Dovetail Groove:** The sheltered interior face of the glass features a shallow molded undercut dovetail groove (`\‾‾‾‾‾/`). Keeping the groove compact preserves over 85–90% of the panel's structural cross-section, preventing stress concentrations while keeping the fire-facing exterior 100% smooth.
 - **Flush-Waist Hourglass (X-Key) Lock:** Once the glass panel rests directly against the inner horizontal beam, a loose, symmetrical hourglass-shaped wedge key is slid vertically into the matching dovetail grooves. Its narrowest waist aligns flush with the glass-to-beam contact plane, locking the panel tightly against both wind pressure and suction without bolts, tools, or thermal expansion stress.
-
-
-*   **Height Calibration (\(H_w\)):** Dynamically calculated at 1.25 × the local canopy height to completely intercept direct flame contact and crown fire vectors.
-*   **The Scissor-Overlapped Ridge:** To eliminate any risk of structural binding, crushing, or mechanical failure caused by asymmetrical terrain variations, the peak of the A-frame avoids a rigid butt-joint. The left and right walls are manufactured as standard-length, overlapping quartz glass planks that cross each other at the apex in a scissor configuration.
-*   **Vertical Center Support:** The angled walls lean against a central vertical quartz glass or reinforced concrete pillar (I-beam). This central column carries all vertical loads (such as heavy winter snow accumulation) and allows opposing wall elements to slide vertically and independently as the terrain shifts.
-*   **The Chimney Filter Effect:** The hollow triangular interior space serves as a pressure-venting chimney. High-velocity airwaves carrying embers are forced inside, where they lose thermal velocity against the ceiling and extinguish due to localized heat absorption and oxygen starvation.
+- **The Scissor-Overlapped Ridge & Chimney Effect:** Opposing 60-degree quartz planks cross each other at the apex in a scissor configuration to allow independent vertical settling on uneven terrain, while the hollow triangular interior acts as a pressure-venting chimney that cools and extinguishes embers.
 
 ---
 
