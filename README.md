@@ -125,7 +125,6 @@ NORTH WALL (Fire / Wind Shield)
 ## ⛺ 4. Meteorological Funnel Sectoring & Risk Minimization
 
 The forest region is partitioned by radial, star-patterned QuartzGate walls extending outward from a central circular command and monitor hub (equipped with automated water cannons). The sectors are mapped according to dominant regional wind patterns (e.g., south/southwesterly winds):
-## ⛺ 4. Meteorological Funnel Sectoring & Risk Minimization
 
 Top-Down Macro Layout (Radial Funnel Sectoring & Central Command Hub):
 ![QuartzGate Radial Funnel Sectoring & Central Hub](quartzgate-macro-layout(1).png)
