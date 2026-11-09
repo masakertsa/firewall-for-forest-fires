@@ -8,7 +8,7 @@ An open-source, 100% non-electric, non-mechanical, and biomimetic forestry frame
 
 Unlike traditional vertical firewalls that require deep concrete foundations and risk collapse under intense wind loads, QuartzGate utilizes a self-supporting **A-frame triangular geometry** leaning at a **60-degree angle** relative to the ground. 
 
-### 2.2. Tri-Feature Quartz Lamella & Hourglass (X-Key) Wind-Lock
+### 1.1 Tri-Feature Quartz Lamella & Hourglass (X-Key) Wind-Lock
 
 To prevent wind suction (negative pressure) from pulling the glass panels outward without drilling holes, bolts, or exposing fasteners to extreme heat, each fused silica lamella integrates three cast-in geometric features secured by a low-profile symmetrical **hourglass (X-profile) wedge key**:
 
@@ -29,7 +29,7 @@ Top-Down Cross-Section (Single 1.0 m Quartz Lamella & Low-Profile Hourglass Key)
                                                            (Structural Horizontal Beam)
 ```
 
-## 📐 1.1 Internal Post-and-Beam Core
+## 📐 1.2 Internal Post-and-Beam Core
 
 QuartzGate utilizes a self-supporting **A-frame triangular geometry** at a **60-degree angle**, reinforced by a sheltered internal post-and-beam skeleton.
 
