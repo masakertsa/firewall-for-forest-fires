@@ -171,8 +171,7 @@ Hydrological Flow (Cross-Section Profile):
 *   **Fail-Safe Non-Electric Delivery:** By using gravity as the primary propellant, the system can launch high-velocity pre-wetting vectors without relying on mechanical generators, electrical grids, or booster pumps, which are highly prone to failure during a wildfire crisis. If space or elevation is restricted around the center circle, modular subterranean tanks are integrated directly inside the hub's foundation matrix.
 ```
 ---
-
-📡 8. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
+## 📡 8. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
 
 To operate independently of vulnerable power grids and automated AI logic, the command hub uses a low-voltage, human-verified framework:
 
