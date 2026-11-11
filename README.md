@@ -200,7 +200,7 @@ Completed lamellae travel on the carriage through a three-stage thermal tunnel t
 ### 6.4. C/C Consumables & Master-Satellite Foundry Network
 
 Rather than relying on unrealistic "infinite tooling lifespans," the system treats C/C molds and rollers as **replaceable, modular consumables** manufactured on-site:
-- **Master Foundry (Emovalimo):** The primary solar foundry bakes and graphitizes pre-woven carbon-fiber preforms at 1000–2000°C, joining modular segments with dovetail interlocks and carbon-resin paste into multi-cavity C/C molds.
+- **Master Foundry:** The primary solar foundry bakes and graphitizes pre-woven carbon-fiber preforms at 1000–2000°C, joining modular segments with dovetail interlocks and carbon-resin paste into multi-cavity C/C molds.
 - **Satellite Melting Stations:** Finished C/C mold assemblies are transported to lightweight satellite melting stations deployed directly along high-sunshine wildfire perimeters, eliminating long-distance transport of heavy finished quartz panels.
 
 ### 6.5. Dual-Gas Containment & Positive Pressure Sealing
@@ -223,8 +223,8 @@ To harmonize the structure with the local ecosystem, the design implements a spe
 
 ---
 
-## 8. Automated Active Suppression & Pre-Wetting Choke Logic
-
+## 8. Automated Active Suppression & Hydrological Infrastructure
+### 8.1. Predictive Pre-Wetting Choke Logic
 The central circular command hub utilizes a predictive Tactical Pre-Wetting Framework rather than reactive spraying, channeling and saturating target zones ahead of advancing firefronts to prevent ignition and starve the fire of energy.
 
 ```text
@@ -250,7 +250,7 @@ Suppression Strategy (Top-Down Vector):
 
 ---
 
-## 8.2. Passive Hydrological Infrastructure & Gravity-Fed Supply Lines
+### 8.2. Passive Hydrological Infrastructure & Gravity-Fed Supply Lines
 
 The water delivery system ensures high survivability through topographic placement and protected subterranean routing:
 A-Frame Utility Corridor: Mainlines run beneath the hollow A-frame structure, shielded by the quartz wall from heat, falling timber, and freezing.
