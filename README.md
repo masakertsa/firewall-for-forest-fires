@@ -326,12 +326,12 @@ To evaluate the true return on investment (ROI) of the QuartzGate framework, the
 
 | Financial Phase | Traditional Reactive Model (No Wall) | QuartzGate Passive Architecture (Option B) |
 | :--- | :--- | :--- |
-| **Initial Capital Expenditure (CAPEX)** | **€0** (No upfront structural infrastructure). | **~€39,030,000** (One-time high-tech fused silica acquisition & gravity grid setup). |
-| **50-Year Operational Maintenance (OPEX)** | **Variable / High** (Continuous fuel management, firebreak clearing, heavy machine deployment). | **€0** (Fused silica is chemically inert; gravity feed eliminates mechanical pump grid maintenance). |
+| **Initial Capital Expenditure (CAPEX)** | **€0** (No upfront structural infrastructure). | **~€33,400,000** (One-time in-situ white silica foundry, basalt skeleton & gravity grid setup). |
+| **50-Year Operational Maintenance (OPEX)** | **Variable / High** (Continuous fuel management, firebreak clearing, heavy machine deployment). | **Low / Minimal** (Inert white silica & basalt frame; periodic replacement of C/C foundry consumables & ridge flap inspections). |
 | **Active Suppression Phase Costs** | **€15,000,000 – €40,000,000** (Emergency deployment of water-bombers, aviation fuel, and emergency personnel per major crisis). | **Near Zero** (Automated pre-wetting uses zero-grid gravity-fed water vectors targeted within localized sectors). |
 | **Direct Property & Asset Losses** | **€30,000,000 – €70,000,000** (Total destruction of local economic timber reserves, structures, tourist hubs, and utility grids). | **Minimized** (The firefront is structurally contained at the initial sector entry point; assets behind the A-frame remain 100% intact). |
-| **Post-Fire Ecological & Soil Restoration** | **€50,000,000 – €150,000,000** (Massive soil erosion control, mandatory clearing of dead hazards, long-term multi-thousand-hectare replanting). | **€0** (The zero-maintenance soil core and surrounding root matrix are fully preserved behind the protective barrier). |
-| **Total Interventions Per Major Crisis** | 🟥 **€100,000,000 – €300,000,000** (Single catastrophic cash drain + 60–80 years of total economic and ecological recovery time). | 🟩 **~€39,030,000** (Fixed permanent insurance. The structure stands intact post-fire, ready for immediate subsequent threats). |
+| **Post-Fire Ecological & Soil Restoration** | **€50,000,000 – €150,000,000** (Massive soil erosion control, mandatory clearing of dead hazards, long-term multi-thousand-hectare replanting). | **€0** (The soil core and surrounding root matrix are fully preserved behind the protective barrier). |
+| **Total Interventions Per Major Crisis** | 🟥 **€100,000,000 – €300,000,000** (Single catastrophic cash drain + 60–80 years of total economic and ecological recovery time). | 🟩 **~€33,400,000** (Fixed permanent insurance. The structure stands intact post-fire, ready for immediate subsequent threats). |
 
 ### 10.2. Fused Silica Investment Rationalization
 
