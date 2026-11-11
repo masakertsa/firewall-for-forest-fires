@@ -144,6 +144,71 @@ The system strictly utilizes **Fused Silica / Quartz Glass** as its primary stru
 
 ---
 
+## 🏭 6. QuartzGate: In-Situ Solar Thermal Foundry Specification
+
+Konsepti: 100 % sähköverkosta riippumaton (off-grid), matalan huoltotarpeen jatkuvatoiminen aurinkovalimo. Järjestelmä valmistaa paikallisesta kvartsihiekasta (\(SiO_{2}\)) äärimmäisen kuumuudenkestäviä, 4-kerroksisia palosuoja- ja lämpökilpimoduuleja (opaakkia kvartsilasia) hyödyntäen suoraa aurinkolämpöä, painovoimaa ja hiili-hiilikomposiittimuotteja (C/C).
+
+1. Hybridienergia ja optinen ydin (X-Flux Core)
+
+Järjestelmä jakaa energiankäytön kahteen täysin erilliseen piiriin maksimaalisen hyötysuhteen saavuttamiseksi:
+• Suora aurinkolämpö (CSP) sulatukseen: Heliostaattipeilit ja kvartsilinssi keskittävät auringonvalon suoraan sulatusytimen risteyskohdan alapinnalle (>1700–2000 °C). Valo kohdistetaan viistosti alhaalta suoraan sulamisrajaan, jolloin valmis tuote ei koskaan tuki valonsäteen reittiä.
+• Aurinkosähkö (PV) mekaniikkaan: Pieni erillinen aurinkopaneeli- ja akkujärjestelmä syöttää puhdasta sähköä muottikelkan hitaaseen siirtoon, 3-lohkotelan pyöritykseen ja peilien ohjaukseen. Jos pilvi varjostaa aurinkoa, automaatio hidastaa syöttöä samassa suhteessa.
+
+Lämpöloukku ja konvektio
+
+Koska kuuma ilma ja lämpösäteily nousevat luonnostaan ylöspäin, sulatuspisteestä karkaava lämpö esilämmittää X-muotoisessa syöttökanavassa alaspäin valuvaa raakahiekkaa. Kylmä hiekka toimii samalla luonnollisena lämmöneristeenä uunin ulkoseinille.
+text
+                       [ UNMELTED SILICA SAND ]
+                                 │
+                                 ▼
+                      ┌──────┐       ┌──────┐
+                      │ Sand █       █ Sand │  <-- Kylmä hiekka eristää seinät
+                      └──────┐ █ X █ ┌──────┘
+               \             │ █ █ █ │             /
+    SOLAR BEAM  \            │   ▼   │            /  SOLAR BEAM
+   (Kohdistettu  \──────────►│ ░░░░░ │◄──────────/  (Kohdistettu
+    suoraan ytimen           │ ░░░░░ │               suoraan ytimen
+    alapintaan)              └───┬───┘               alapintaan)
+                                 ▼
+Käytä koodia harkiten.
+
+2. Sivuttain liikkuva C/C-muotti ja 3-lohkotela
+
+Koska sula kvartsi on erittäin sitkeää eikä tasoitu itsestään, massa muotoillaan mekaanisesti sivusuunnassa liikkuvassa pystymuotissa.
+
+Ulokkeilla suojattu kelkkamekaniikka
+
+• Ulkoiset liikkuvat osat: Tarttumattoman hiili-hiilikomposiittimuotin (C/C) alareunoista lähtevät kapeat ulokkeet sivusuunnassa ulos kuumasta suojakaasukammiosta (typpi/argon). Kaikki kiskot, laakerit ja sähkömoottorit sijaitsevat viileässä ja pölyttömässä ulkotilassa hiekkatiivisteiden takana.
+• 3-lohkoinen tiivistystela: Muotin yläpuolella pyörii kolmilohkoinen C/C-tela (cam-roller). Jokainen lohko painaa sitkeää kvartsivirtaa tiiviisti muottiin 1/3 kierroksen ajan ja jäähtyy 2/3 kierroksen ajan. Tela poistaa ilmakuplat, estää tarttumisen ja painaa levyn pintaan lukittuvan profiilin.
+• Ylijäämäkaukalo (Purge Station): Muottikelkan sivussa on erillinen ylijäämäkaukalo. Käynnistysvaiheen massa tai muotin vaihdon aikainen ylivuoto ohjataan kelkan sivuttaisliikkeellä suoraan kaukaloon. Jäähtynyt ylijäämä murskataan ja syötetään takaisin raakahiekan sekaan (Zero-Waste).
+text
+         [ X-FLUX SULATUSPISTE ]
+                 │ ░░░ │
+                 ▼
+            ╭───╮
+           (  ●  )  <-- 3-Lohkoinen C/C-tela (1/3 painaa, 2/3 jäähtyy)
+          ╭─╯   ╰─╮
+   ┌──────┴───────┴──────────┬───────────────┐
+   │  VARSINAINEN MUOTTI     │ YLIJÄÄMÄ-     │
+   │  (1.0m Quartz Lamella)  │ KAUKALO       │
+   └──────┬───────────┬──────┴───────────────┘
+   ═══════╪═══════════╪═══════════════════════  <-- Tiivistysraja
+          └──► [Kiskot & Moottorit] ◄──┘        <-- Ulkopuolen viileä tila
+Käytä koodia harkiten.
+
+3. Kolmivaiheinen jäähdytys ja lämmön talteenotto
+
+Valmis levy kulkee kelkan mukana kolmivaiheisen lämpötunnelin läpi, jotta se ei halkea lämpöshokkiin:
+1. Lukitus (1800 °C → 1150 °C): Hallittu säteilyjäähdytys ilman kosketusta ohittaa kiteytymisalueen nopeasti ja lukitsee levyn muodon.
+2. Hehkutus / Annealing (1100 °C → 900 °C): Eristetty tunneliosuus tasaa lasin sisäiset jännitykset.
+3. Loppujäähdytys (900 °C → < 100 °C): Vastavirtaan puhallettava suojakaasu (typpi/argon) viilentää levyn ja siirtää talteenotetun lämmön esilämmittämään tulevaa raakahiekkaa.
+
+4. Lopputuote: 4-kerroksinen palosuojamoduuli ja Gen-1-päivitys
+
+• Opaakki kvartsirakenne (Mikrokuplaetu): Paikallisesta hiekasta sulatettu kvartsi sisältää miljoonia mikroskooppisia kaasukuplia. Tämä tekee levyistä maitomaisia, kevyitä ja erittäin tehokkaita lämpösäteilyn heijastajia. Lämpölaajenemiskerroin on lähes nolla, joten punahehkuinen levy kestää suoran sammutusvesisuihkun halkeamatta.
+• 4-kerrosarkkitehtuuri (4-Layer QuartzGate): Neljä päällekkäin lukittuvaa kvartsilevyä ilmarakoineen katkaisee yli 90 % lämpösäteilystä ja kestää jatkuvaa >1200 °C metsäpalo- tai polttoainepalokuormaa.
+• Itsensä päivittävä valimo (Gen-0 → Gen-1): Ensimmäiset linjalta valmistuvat 4-kerrosmoduulit asennetaan suoraan valimon oman jäähdytystunnelin ja optisen ikkunan lämpökilviksi, mikä nostaa laitoksen hyötysuhdetta välittömästi.
+• Soveltuvuus avaruuteen (Lunar ISRU): Kuun 1/6 painovoimassa ja tyhjiössä C/C-muotit eivät vaadi suojakaasua lainkaan, ja 3-lohkotela varmistaa massan tiivistymisen matalassa painovoimassa.
 ## 👁 6. Sensory Integration & Environmental Base Seal
 
 To harmonize the structure with the local ecosystem, the design implements a specialized nature-protective barrier:
@@ -154,7 +219,7 @@ To harmonize the structure with the local ecosystem, the design implements a spe
 
 ---
 
-## 7.1. Automated Active Suppression & Pre-Wetting Choke Logic
+## 8. Automated Active Suppression & Pre-Wetting Choke Logic
 
 The central circular command hub utilizes a predictive Tactical Pre-Wetting Framework rather than reactive spraying, channeling and saturating target zones ahead of advancing firefronts to prevent ignition and starve the fire of energy.
 
@@ -181,7 +246,7 @@ Suppression Strategy (Top-Down Vector):
 
 ---
 
-## 7.2. Passive Hydrological Infrastructure & Gravity-Fed Supply Lines
+## 8.2. Passive Hydrological Infrastructure & Gravity-Fed Supply Lines
 
 The water delivery system ensures high survivability through topographic placement and protected subterranean routing:
 A-Frame Utility Corridor: Mainlines run beneath the hollow A-frame structure, shielded by the quartz wall from heat, falling timber, and freezing.
@@ -213,7 +278,7 @@ Hydrological Flow (Cross-Section Profile):
 *   **Topographic Gravity Feed:** Whenever local geography permits, main water storage reservoirs are constructed in high-altitude sectors relative to the central command hub. This height differential utilizes natural topography to generate immense hydrostatic pressure.
 *   **Fail-Safe Non-Electric Delivery:** By using gravity as the primary propellant, the system can launch high-velocity pre-wetting vectors without relying on mechanical generators, electrical grids, or booster pumps, which are highly prone to failure during a wildfire crisis. If space or elevation is restricted around the center circle, modular subterranean tanks are integrated directly inside the hub's foundation matrix.
 ---
-## 📡 8. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
+## 📡 9. Ultra-Low-Power Surveillance & Color-Coded Fire Matrix
 
 To operate independently of vulnerable power grids and automated AI logic, the command hub uses a low-voltage, human-verified framework:
 
@@ -248,11 +313,11 @@ Command Tower & Visual Signaling Matrix (Side Profile):
 
 ---
 
-## 📊 9. Economic Assessment: Capital Investment vs. The Cost of Inaction
+## 📊 10. Economic Assessment: Capital Investment vs. The Cost of Inaction
 
 To evaluate the true return on investment (ROI) of the QuartzGate framework, the initial production cost of fused silica must be directly cross-referenced against the multi-decade lifecycle maintenance costs and the catastrophic reality of an unprotected ecosystem breakout.
 
-### 9.1. Financial Comparison (Based on a 10 km Reference Line / 25 m Height)
+### 10.1. Financial Comparison (Based on a 10 km Reference Line / 25 m Height)
 
 | Financial Phase | Traditional Reactive Model (No Wall) | QuartzGate Passive Architecture (Option B) |
 | :--- | :--- | :--- |
@@ -263,7 +328,7 @@ To evaluate the true return on investment (ROI) of the QuartzGate framework, the
 | **Post-Fire Ecological & Soil Restoration** | **€50,000,000 – €150,000,000** (Massive soil erosion control, mandatory clearing of dead hazards, long-term multi-thousand-hectare replanting). | **€0** (The zero-maintenance soil core and surrounding root matrix are fully preserved behind the protective barrier). |
 | **Total Interventions Per Major Crisis** | 🟥 **€100,000,000 – €300,000,000** (Single catastrophic cash drain + 60–80 years of total economic and ecological recovery time). | 🟩 **~€39,030,000** (Fixed permanent insurance. The structure stands intact post-fire, ready for immediate subsequent threats). |
 
-### 9.2. Fused Silica Investment Rationalization
+### 10.2. Fused Silica Investment Rationalization
 
 The economic illusion of standard infrastructure (such as steel or concrete) lies in cheap procurement. However, when exposed to 1000°C extreme wildfire vectors, steel buckles and concrete suffers structural spalling (explosive fracturing due to interior moisture vaporization), resulting in a **100% loss of investment capital**. 
 
@@ -273,7 +338,7 @@ QuartzGate concentrates almost 100% of the project budget directly into the high
 
 ---
 
-## 🧪 10. Ecological Chemistry: Eco-Safe Saline Retardant Augmentation
+## 🧪 11. Ecological Chemistry: Eco-Safe Saline Retardant Augmentation
 
 To maximize the efficiency of the gravity-fed suppression system and prevent rapid water evaporation during extreme high-temperature crown fires, the framework integrates localized chemical augmentation. Traditional rock salt or road salt (sodium chloride) is strictly forbidden due to permanent groundwater contamination and soil erosion. Instead, the grid utilizes highly specific, eco-safe flame-retardant salt solutions.
 
@@ -304,14 +369,14 @@ Saline Suppression Dynamics (Thermal Interception):
 *   **Evaporative Crystal Shield:** When the saline brine is sprayed onto the unburned canopy ahead of the fire front, the water component provides immediate thermal cooling. As the extreme heat of the approaching fire evaporates the water, it leaves behind a thick, uniform coating of non-combustible mineral crystals bound to the needles, leaves, and timber.
 *   **Endothermic Gas Release & Char-Layering:** Upon direct contact with flames, these specific alternative salts undergo a chemical decomposition process. Instead of feeding the fire, they release non-flammable inert vapors that dilute ambient oxygen at the fuel surface. Concurrently, they catalyze the formation of a carbonaceous, ceramic-like char-layer on the wood, preventing the underlying timber from reaching its ignition temperature even under sustained thermal radiation.
 
-### 10.2. Post-Crisis Environmental Regeneration
+### 11.2. Post-Crisis Environmental Regeneration
 
 Unlike standard commercial retardants that leave toxic residues, the selected chemical matrix acts as a dual-purpose ecological safeguard:
 
 *   **Nutrient Conversion:** Once the fire crisis is averted and seasonal rains wash the mineral crystals off the canopy into the forest floor, Ammonium Sulfate breaks down into natural nitrogen and sulfur matrices. 
 *   **Soil Recovery Catalyst:** Rather than poisoning the ecosystem, the residual retardant transforms into a high-grade agricultural fertilizer. This actively stimulates the surrounding root networks and accelerates the bio-regeneration of the local flora, ensuring the forest recovers at an accelerated rate post-incident.
 
-## 🐍 11. Parametric Python Tools (BOM Calculator & CAD Generator)
+## 🐍 12. Parametric Python Tools (BOM Calculator & CAD Generator)
 
 The repository includes two standalone, zero-dependency Python scripts for scaling the architecture to any forest perimeter:
 
