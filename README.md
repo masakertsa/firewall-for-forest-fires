@@ -52,7 +52,6 @@ Side Cross-Section (A-Frame & Internal Support):
 - **Continuous Interlocking Mass & Wind Sheltering:** Adjacent 1.0 m quartz lamellae feature straight tongue-and-groove interlocks that bind them into a massive, continuous structural wall, reinforced by natural forest canopy wind-breaking.
 - **Shallow, Low-Stress Internal Dovetail Groove:** The sheltered interior face of the glass features a shallow molded undercut dovetail groove (`\‾‾‾‾‾/`). Keeping the groove compact preserves over 85–90% of the panel's structural cross-section, preventing stress concentrations while keeping the fire-facing exterior 100% smooth.
 - **Flush-Waist Hourglass (X-Key) Lock:** Once the glass panel rests directly against the inner horizontal beam, a loose, symmetrical hourglass-shaped wedge key is slid vertically into the matching dovetail grooves. Its narrowest waist aligns flush with the glass-to-beam contact plane, locking the panel tightly against both wind pressure and suction without bolts, tools, or thermal expansion stress.
-- **The Scissor-Overlapped Ridge & Chimney Effect:** Opposing 60-degree quartz planks cross each other at the apex in a scissor configuration to allow independent vertical settling on uneven terrain, while the hollow triangular interior acts as a pressure-venting chimney that cools and extinguishes embers.
 
 ---
 
