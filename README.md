@@ -32,7 +32,7 @@ Top-Down Cross-Section (Single 1.0 m Quartz Lamella & Low-Profile Hourglass Key)
 
 ## 📐 1.2 Internal Post-and-Beam Core
 
-QuartzGate utilizes a self-supporting **A-frame triangular geometry** at a **60-degree angle**, reinforced by a sheltered internal post-and-beam skeleton.
+QuartzGate utilizes a self-supporting **A-frame triangular geometry** reinforced with a basalt fiber composite skeleton, incorporating continuous interlocking quartz lamellae, shallow dovetail grooves with hourglass wedge keys, and a scissor-overlapped ridge providing a natural chimney effect.
 
 Side Cross-Section (A-Frame & Internal Support):
 ```text
@@ -134,88 +134,92 @@ Top-Down Macro Layout (Radial Funnel Sectoring & Central Command Hub):
 
 ---
 
-## 🧱 5. Material Specifications & Irreplaceable Fused Silica Architecture
+## 🧱 5. Material Specifications & Opaque White Fused Silica Architecture
 
-The system strictly utilizes **Fused Silica / Quartz Glass** as its primary structural medium. Substituting this material with standard glass, borosilicate variants, or concrete composites introduces catastrophic failure points due to the following non-negotiable physical constraints:
+The system utilizes **Opaque Micro-Bubbled White Fused Silica (White Quartz Glass)** as its primary exterior structural medium to prevent critical failure modes:
 
-*   **Absolute Thermal Shock Immunity:** Fused silica exhibits a near-zero coefficient of thermal expansion ($0.5 \times 10^{-6} \text{ K}^{-1}$). While standard glass shatters instantly under asymmetrical thermal loads (1000°C firefront on the exterior vs. 20°C ambient air on the interior), fused silica can be heated to a red glow and quenched in ice water without structural fracturing.
-*   **High-Temperature Mechanical Rigidity:** The continuous operating threshold of quartz glass reaches **1200°C**, with a softening point exceeding **1600°C**. Unlike structural steel, which loses over 50% of its load-bearing capacity at 500–600°C and buckles under heavy wind, the QuartzGate A-frame maintains complete geometric rigidity during direct crown fire contact.
-*   **Chemical and Biological Immortality (Zero Maintenance):** Fused silica is chemically inert. It does not suffer from atmospheric corrosion (rust) like metals, biological decay like timber, or UV degradation like polymer-matrix composites. This guarantees a multi-decade operational lifespan in acidic forest soils with zero structural maintenance.
+- **Superior Infrared Reflection:** Millions of microscopic trapped gas bubbles scatter and reflect over 90% of wildfire infrared radiation outward while keeping the interior cool and enabling production from local silica sand without vacuum purification.
+- **Thermal Shock Immunity:** Possessing a near-zero coefficient of thermal expansion ($0.5 \times 10^{-6} \text{ K}^{-1}$), it withstands extreme temperature differentials (such as a 1000°C firefront against 20°C ambient air) without shattering.
+- **High-Temperature Rigidity:** With a continuous operating threshold of **1200°C** and a softening point above **1600°C**, the material retains its geometric rigidity during direct crown fire contact where structural steel would buckle.
+- **Chemical Immortality:** Being chemically inert, it avoids the atmospheric corrosion, biological decay, and UV degradation common to metals, timber, and polymers.
+## 🏭 6. In-Situ Solar Thermal Foundry (On-Site Lamella Production)
 
----
+A 100% off-grid, low-maintenance continuous solar foundry framework designed to manufacture 4-layer opaque white fused silica fire-shield lamellae directly on-site from local silica sand (SiO₂) using concentrated solar thermal energy, gravity, and Carbon-Carbon (C/C) tooling.
 
-## 🏭 6. QuartzGate: In-Situ Solar Thermal Foundry Specification
+### 6.1. Hybrid Energy & Optical Core (X-Flux Core)
 
-Konsepti: 100 % sähköverkosta riippumaton (off-grid), matalan huoltotarpeen jatkuvatoiminen aurinkovalimo. Järjestelmä valmistaa paikallisesta kvartsihiekasta (\(SiO_{2}\)) äärimmäisen kuumuudenkestäviä, 4-kerroksisia palosuoja- ja lämpökilpimoduuleja (opaakkia kvartsilasia) hyödyntäen suoraa aurinkolämpöä, painovoimaa ja hiili-hiilikomposiittimuotteja (C/C).
+The system separates energy inputs into two dedicated circuits to maximize thermodynamic efficiency:
+- **Direct Solar Thermal (CSP) Melting:** Heliostat mirrors and a quartz lens concentrate solar radiation directly onto the underside of the X-junction melting boundary (>1700–2000°C). Because the beam enters obliquely from below directly at the phase interface, finished products never obstruct the optical path.
+- **Photovoltaic (PV) Mechanical Drive:** A small, dedicated solar-panel and battery array powers the slow lateral mold carriage, 3-lobe roller rotation, and heliostat tracking. If cloud cover reduces solar flux, automation slows feed rates proportionally.
+- **Convective Heat Trap:** Rising thermal energy from the melting zone passively pre-heats incoming raw sand descending through the X-shaped feed channels, while cold outer sand insulates the furnace walls.
 
-1. Hybridienergia ja optinen ydin (X-Flux Core)
-
-Järjestelmä jakaa energiankäytön kahteen täysin erilliseen piiriin maksimaalisen hyötysuhteen saavuttamiseksi:
-• Suora aurinkolämpö (CSP) sulatukseen: Heliostaattipeilit ja kvartsilinssi keskittävät auringonvalon suoraan sulatusytimen risteyskohdan alapinnalle (>1700–2000 °C). Valo kohdistetaan viistosti alhaalta suoraan sulamisrajaan, jolloin valmis tuote ei koskaan tuki valonsäteen reittiä.
-• Aurinkosähkö (PV) mekaniikkaan: Pieni erillinen aurinkopaneeli- ja akkujärjestelmä syöttää puhdasta sähköä muottikelkan hitaaseen siirtoon, 3-lohkotelan pyöritykseen ja peilien ohjaukseen. Jos pilvi varjostaa aurinkoa, automaatio hidastaa syöttöä samassa suhteessa.
-
-Lämpöloukku ja konvektio
-
-Koska kuuma ilma ja lämpösäteily nousevat luonnostaan ylöspäin, sulatuspisteestä karkaava lämpö esilämmittää X-muotoisessa syöttökanavassa alaspäin valuvaa raakahiekkaa. Kylmä hiekka toimii samalla luonnollisena lämmöneristeenä uunin ulkoseinille.
-text
+```text
                        [ UNMELTED SILICA SAND ]
                                  │
                                  ▼
                       ┌──────┐       ┌──────┐
-                      │ Sand █       █ Sand │  <-- Kylmä hiekka eristää seinät
+                      │ Sand █       █ Sand │  <-- Cold sand insulates outer walls
                       └──────┐ █ X █ ┌──────┘
                \             │ █ █ █ │             /
     SOLAR BEAM  \            │   ▼   │            /  SOLAR BEAM
-   (Kohdistettu  \──────────►│ ░░░░░ │◄──────────/  (Kohdistettu
-    suoraan ytimen           │ ░░░░░ │               suoraan ytimen
-    alapintaan)              └───┬───┘               alapintaan)
+   (Focused      \──────────►│ ░░░░░ │◄──────────/  (Focused
+    directly on   \          │ ░░░░░ │          /    directly on
+    core base)               └───┬───┘               core base)
                                  ▼
-Käytä koodia harkiten.
+```
 
-2. Sivuttain liikkuva C/C-muotti ja 3-lohkotela
+### 6.2. Lateral C/C Mold Carriage & 3-Lobe Roller
 
-Koska sula kvartsi on erittäin sitkeää eikä tasoitu itsestään, massa muotoillaan mekaanisesti sivusuunnassa liikkuvassa pystymuotissa.
+Because molten quartz is highly viscous and does not self-level, the stream is shaped mechanically inside a laterally translating vertical mold:
+- **Externally Shielded Carriage:** Narrow lower extensions (wings) project laterally from the non-wetting Carbon-Carbon (C/C) mold out of the hot inert-gas chamber through sand seals. All rails, bearings, and electric drive motors remain in the cool, dust-free exterior environment.
+- **3-Lobe Compaction Roller:** A 3-lobe C/C cam-roller rotates above the mold. Each lobe presses viscous quartz firmly into the mold for 1/3 of a rotation and radiates heat away during the remaining 2/3, eliminating air pockets, preventing sticking, and embossing interlocking profiles.
+- **Purge / Overflow Station:** A side-mounted C/C overflow crucible captures startup impurities or excess flow during mold indexing via a slight lateral carriage shift. Cooled quartz cullet is crushed and recycled back into the raw sand feed (Zero-Waste).
 
-Ulokkeilla suojattu kelkkamekaniikka
-
-• Ulkoiset liikkuvat osat: Tarttumattoman hiili-hiilikomposiittimuotin (C/C) alareunoista lähtevät kapeat ulokkeet sivusuunnassa ulos kuumasta suojakaasukammiosta (typpi/argon). Kaikki kiskot, laakerit ja sähkömoottorit sijaitsevat viileässä ja pölyttömässä ulkotilassa hiekkatiivisteiden takana.
-• 3-lohkoinen tiivistystela: Muotin yläpuolella pyörii kolmilohkoinen C/C-tela (cam-roller). Jokainen lohko painaa sitkeää kvartsivirtaa tiiviisti muottiin 1/3 kierroksen ajan ja jäähtyy 2/3 kierroksen ajan. Tela poistaa ilmakuplat, estää tarttumisen ja painaa levyn pintaan lukittuvan profiilin.
-• Ylijäämäkaukalo (Purge Station): Muottikelkan sivussa on erillinen ylijäämäkaukalo. Käynnistysvaiheen massa tai muotin vaihdon aikainen ylivuoto ohjataan kelkan sivuttaisliikkeellä suoraan kaukaloon. Jäähtynyt ylijäämä murskataan ja syötetään takaisin raakahiekan sekaan (Zero-Waste).
-text
-         [ X-FLUX SULATUSPISTE ]
+```text
+         [ X-FLUX MELTING ZONE ]
                  │ ░░░ │
                  ▼
             ╭───╮
-           (  ●  )  <-- 3-Lohkoinen C/C-tela (1/3 painaa, 2/3 jäähtyy)
+           (  ●  )  <-- 3-Lobe C/C Roller (1/3 pressing, 2/3 cooling)
           ╭─╯   ╰─╮
    ┌──────┴───────┴──────────┬───────────────┐
-   │  VARSINAINEN MUOTTI     │ YLIJÄÄMÄ-     │
-   │  (1.0m Quartz Lamella)  │ KAUKALO       │
+   │  PRIMARY MOLD           │ PURGE /       │
+   │  (1.0m Quartz Lamella)  │ OVERFLOW TRAY │
    └──────┬───────────┬──────┴───────────────┘
-   ═══════╪═══════════╪═══════════════════════  <-- Tiivistysraja
-          └──► [Kiskot & Moottorit] ◄──┘        <-- Ulkopuolen viileä tila
-Käytä koodia harkiten.
+   ═══════╪═══════════╪═══════════════════════  <-- Inert Gas Seal Boundary
+          └──► [Rails & Drive Motors] ◄──┘      <-- Cool Exterior Zone
+```
 
-3. Kolmivaiheinen jäähdytys ja lämmön talteenotto
+### 6.3. Three-Stage Annealing & Heat Recovery
 
-Valmis levy kulkee kelkan mukana kolmivaiheisen lämpötunnelin läpi, jotta se ei halkea lämpöshokkiin:
-1. Lukitus (1800 °C → 1150 °C): Hallittu säteilyjäähdytys ilman kosketusta ohittaa kiteytymisalueen nopeasti ja lukitsee levyn muodon.
-2. Hehkutus / Annealing (1100 °C → 900 °C): Eristetty tunneliosuus tasaa lasin sisäiset jännitykset.
-3. Loppujäähdytys (900 °C → < 100 °C): Vastavirtaan puhallettava suojakaasu (typpi/argon) viilentää levyn ja siirtää talteenotetun lämmön esilämmittämään tulevaa raakahiekkaa.
+Completed lamellae travel on the carriage through a three-stage thermal tunnel to prevent thermal shock fracturing:
+1. **Shape Lock (1800°C → 1150°C):** Controlled non-contact radiative cooling bypasses the crystallization zone rapidly to lock geometry.
+2. **Annealing (1100°C → 900°C):** An insulated tunnel section equalizes internal glass stresses.
+3. **Final Cooling (900°C → < 100°C):** Counter-flow inert gas cools the lamella and transfers recovered thermal energy to pre-heat incoming raw sand.
 
-4. Lopputuote: 4-kerroksinen palosuojamoduuli ja Gen-1-päivitys
+### 6.4. C/C Consumables & Master-Satellite Foundry Network
 
-• Opaakki kvartsirakenne (Mikrokuplaetu): Paikallisesta hiekasta sulatettu kvartsi sisältää miljoonia mikroskooppisia kaasukuplia. Tämä tekee levyistä maitomaisia, kevyitä ja erittäin tehokkaita lämpösäteilyn heijastajia. Lämpölaajenemiskerroin on lähes nolla, joten punahehkuinen levy kestää suoran sammutusvesisuihkun halkeamatta.
-• 4-kerrosarkkitehtuuri (4-Layer QuartzGate): Neljä päällekkäin lukittuvaa kvartsilevyä ilmarakoineen katkaisee yli 90 % lämpösäteilystä ja kestää jatkuvaa >1200 °C metsäpalo- tai polttoainepalokuormaa.
-• Itsensä päivittävä valimo (Gen-0 → Gen-1): Ensimmäiset linjalta valmistuvat 4-kerrosmoduulit asennetaan suoraan valimon oman jäähdytystunnelin ja optisen ikkunan lämpökilviksi, mikä nostaa laitoksen hyötysuhdetta välittömästi.
-• Soveltuvuus avaruuteen (Lunar ISRU): Kuun 1/6 painovoimassa ja tyhjiössä C/C-muotit eivät vaadi suojakaasua lainkaan, ja 3-lohkotela varmistaa massan tiivistymisen matalassa painovoimassa.
-## 👁 6. Sensory Integration & Environmental Base Seal
+Rather than relying on unrealistic "infinite tooling lifespans," the system treats C/C molds and rollers as **replaceable, modular consumables** manufactured on-site:
+- **Master Foundry (Emovalimo):** The primary solar foundry bakes and graphitizes pre-woven carbon-fiber preforms at 1000–2000°C, joining modular segments with dovetail interlocks and carbon-resin paste into multi-cavity C/C molds.
+- **Satellite Melting Stations:** Finished C/C mold assemblies are transported to lightweight satellite melting stations deployed directly along high-sunshine wildfire perimeters, eliminating long-distance transport of heavy finished quartz panels.
+
+### 6.5. Dual-Gas Containment & Positive Pressure Sealing
+
+- **Argon Core (2000°C):** Pure, chemically inert **Argon ($Ar$)** circulates in a closed loop inside the hottest melting core to prevent any carbon reaction at extreme temperatures.
+- **On-Site Nitrogen Tunnel (< 1100°C):** Lower-temperature annealing zones use **Nitrogen ($N_2$)** extracted directly from ambient air via a solar-powered PSA generator. Because both $Ar$ and $N_2$ have large atomic/molecular diameters, neither permeates through quartz walls, while slight positive chamber pressure blocks atmospheric oxygen ingress.
+
+### 6.6. 4-Layer Fire-Shield Modules & Post-Firewall Surplus Production
+
+- **Self-Upgrading Architecture (Gen-0 → Gen-1):** The first 4-layer opaque quartz modules produced are installed directly onto the foundry's own annealing tunnel and optical heat shields, immediately boosting thermal efficiency.
+- **Post-Firewall Surplus Manufacturing:** Once regional firebreaks are completed, the off-grid foundries transition to producing fireproof building bricks, roofing tiles, thermal energy storage batteries, and basalt-fiber composite components using surplus solar capacity.
+- **Lunar ISRU Compatibility:** In the Moon's 1/6 gravity and natural vacuum, C/C molds require zero inert gas shielding while the 3-lobe roller ensures positive mechanical compaction.
+
+## 👁 7. Sensory Integration & Environmental Base Seal
 
 To harmonize the structure with the local ecosystem, the design implements a specialized nature-protective barrier:
 
-- **Sensory and Biomimetic Integration:** High optical transparency in the quartz glass prevents dark walls in the environment, maintaining natural lighting and allowing large animals to migrate through 8-meter overlapping corridors.
-- **UV Bird-Safe Coating:** A permanent, UV-reflective pattern warns birds to prevent collisions while remaining completely transparent to humans and weather-resistant.
-- **Environmental Base Seal:** Volcanic basalt fiber blankets or clay matrices anchor the glass to the ground and seal gaps without disturbing microfauna.
+- **Inherent Wildlife & Avian Visibility:** Unlike transparent glass, opaque micro-bubbled white quartz panels present a bright, milky-white visual surface. This naturally prevents bird collisions without requiring separate UV-reflective coatings and gently guides wildlife toward the wide 8-meter overlapping migration corridors.
+- **Environmental Base Seal:** Volcanic basalt fiber blankets or clay matrices anchor the quartz lamellae to the terrain and seal ground-level gaps against creeping embers without disturbing soil microfauna.
 
 ---
 
