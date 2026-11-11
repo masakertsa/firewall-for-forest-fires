@@ -1,6 +1,6 @@
 # 🔥 QuartzGate: Passive Structural, Mechanical & Sensory Firebreak Architecture
 
-An open-source, 100% non-electric, non-mechanical, and biomimetic forestry framework designed to isolate and contain catastrophic wildfires using self-supporting fused silica (quartz) structures and zero-maintenance conditional wildlife corridors.
+An open-source, 100% non-electric, non-mechanical, and biomimetic forestry framework designed to isolate and contain catastrophic wildfires using self-supporting fused silica (quartz) structures and low-maintenance conditional wildlife corridors.
 
 ---
 
@@ -32,7 +32,8 @@ Top-Down Cross-Section (Single 1.0 m Quartz Lamella & Low-Profile Hourglass Key)
 
 ## 📐 1.2 Internal Post-and-Beam Core
 
-QuartzGate utilizes a self-supporting **A-frame triangular geometry** reinforced with a basalt fiber composite skeleton, incorporating continuous interlocking quartz lamellae, shallow dovetail grooves with hourglass wedge keys, and a scissor-overlapped ridge providing a natural chimney effect.
+**The Scissor-Overlapped Ridge & One-Way Pressure Flaps:** Opposing 60-degree quartz planks cross each other at the apex in a scissor configuration to allow independent vertical settling on uneven terrain. The ridge gap is sealed by **upward-opening one-way flapper plates** (anchored with flexible basalt-fiber hinges to the upper horizontal composite beam). Internal rising heat and pressure push the flaps open to vent upward, whereas external firestorm wind gusts press the flaps tightly shut—completely blocking airborne embers from entering the A-frame cavity.
+
 
 Side Cross-Section (A-Frame & Internal Support):
 ```text
@@ -99,6 +100,7 @@ Installation Tool (Pilot Tool) Operating Principle:
 *   **Laser & Guide-Line Alignment:** Long-distance construction lasers or mechanical guide-lines are deployed along the transit vector. The reference line height is calibrated so that when the trailing edge of the installation tool touches the line and the tip touches the ground, the tool is locked exactly at a **60-degree angle** relative to the horizon.
 *   **Mechanical Pre-Piercing (50 cm Pilot Tool):** A heavy-duty, 50 cm hardened steel piercing tool matching the cross-section profile of the ground shoe is driven into the terrain using a sledgehammer, pneumatic hammer, or tractor-mounted hydraulic ram. 
 *   **Resource Efficiency (70% Metal Mass Saved):** Once the 50 cm pilot trench is opened, the tool is extracted along its 60-degree path for immediate reuse. A short, lightweight, 10–15 cm permanent metallic ground shoe is then dropped into the finished slot to receive the glass element. This process saves 70% of structural metal mass per kilometer compared to continuous subterranean tracks.
+*   **Self-Locking Uplift Wedge Anchor:** To prevent extreme firestorm wind suction (uplift) from pulling the 60-degree A-frame out of the soil, the ground shoe incorporates a two-piece **expanding wedge anchor**. Installed in a narrow profile into the 50 cm pilot trench, any upward tensile force draws the central conical wedge upward, forcing lateral anchor wings outward into undisturbed soil and beneath the root matrix—locking tighter the harder the wind pulls.
 *   **Root Matrix Preservation:** The 50 cm wedge slices through small root networks rather than tearing them out like heavy excavators. This preserves the surrounding soil integrity and natural root binding.
 
 ---
@@ -311,7 +313,7 @@ Command Tower & Visual Signaling Matrix (Side Profile):
 
 *   **Off-Grid Solar Autonomy:** The core electronics are restricted to high-mounted, low-draw surveillance cameras positioned on a central observation tower to survey the surrounding canopy. This entire sensor array is localized and powered by a dedicated solar panel matrix backed by a ruggedized battery bank, keeping the gate 100% independent of external infrastructure.
 *   **2-Person Human Verification Core:** Instead of fragile software sensors that can fail due to thermal bloom or thick soot interference, two human operators occupy the protected central hub. They analyze the camera feeds and manual cross-sightings, acting as the ultimate fail-safe deployment trigger before activating the water supply valves.
-*   **Chemical Color Matrix Signaling:** The tower is equipped with directional, mechanical or low-voltage chemical smoke cartridges (Color Patruunat). Upon fire confirmation, the operators deploy a specific color marker toward the threat vector:
+*   **Chemical Color Matrix Signaling:** The tower is equipped with directional, mechanical or low-voltage chemical smoke cartridges (Color Smoke Cartridges). Upon fire confirmation, the operators deploy a specific color marker toward the threat vector:
     *   **Vector Definition:** The bright, chemical-colored aerosol cuts through dark charcoal forest smoke, instantly mapping the exact point of entry and boundaries of the threatened funnel sector.
     *   **Aviation & Ground Coordination:** The rising colored plume acts as a passive, non-electronic beacon for distant firefighting aircraft and ground crews, revealing wind shear, air velocity, and fire progression speed in real-time without relying on radio communication or GPS grids.
 
