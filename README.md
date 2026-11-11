@@ -346,7 +346,7 @@ QuartzGate concentrates almost 100% of the project budget directly into the high
 
 To maximize the efficiency of the gravity-fed suppression system and prevent rapid water evaporation during extreme high-temperature crown fires, the framework integrates localized chemical augmentation. Traditional rock salt or road salt (sodium chloride) is strictly forbidden due to permanent groundwater contamination and soil erosion. Instead, the grid utilizes highly specific, eco-safe flame-retardant salt solutions.
 
-### 10.1. Recommended Chemical Matrix & Mechanics
+### 11.1. Recommended Chemical Matrix & Mechanics
 
 The water storage reservoirs are pre-loaded or injected with **Ammonium Sulfate** or **Calcium Magnesium Acetate (CMA)** blends to form a specialized suppression brine:
 
@@ -384,7 +384,7 @@ Unlike standard commercial retardants that leave toxic residues, the selected ch
 
 The repository includes two standalone, zero-dependency Python scripts for scaling the architecture to any forest perimeter:
 
-- **`quartzgate_calculator.py`:** Computes fused silica lamellae count, internal steel post-and-beam tonnage, hourglass X-keys, ground shoes, and CAPEX vs. wildfire loss benchmarks (`python quartzgate_calculator.py --km 10 --canopy 20 --thickness 50`).
+- **`quartzgate_calculator.py`:** Computes fused silica lamellae count, internal basalt fiber composite post-and-beam tonnage, hourglass X-keys, ground shoes, and CAPEX vs. wildfire loss benchmarks (`python quartzgate_calculator.py --km 10 --canopy 20 --thickness 50`).
 - **`quartzgate_dxf_generator.py`:** Generates a 1:1 millimeter DXF cross-section file of the tri-feature lamella and hourglass lock (`python quartzgate_dxf_generator.py --width 1000 --thickness 50`).
 
 
