@@ -1,144 +1,103 @@
 #!/usr/bin/env python3
 """
-QuartzGate Bill of Materials (BOM) & ROI Calculator
-Calculates opaque white fused silica lamellae, internal basalt fiber composite
-post-and-beam frame, one-way ridge pressure flaps, hourglass X-keys,
-self-locking uplift wedge ground shoes, and lifecycle cost comparison.
+QuartzGate Parametric BOM & Cost Calculator
+Calculates structural quantities, mass, and realistic CAPEX for factory-produced
+opaque white fused silica firebreak walls (without on-site foundry overhead).
 """
 
-import math
 import argparse
+import math
 
 
-def calculate_quartzgate(
-    wall_length_km: float = 10.0,
-    canopy_height_m: float = 20.0,
-    glass_thickness_mm: float = 50.0,
-    lamella_width_m: float = 1.0,
-    overlap_count: int = 8,
-    overlap_length_m: float = 8.0,
-    post_spacing_m: float = 4.0,
-    white_silica_price_per_m2_eur: float = 45.0,  # Reduced via In-Situ Solar Foundry
-    basalt_price_per_ton_eur: float = 2800.0,
-) -> dict:
-    # 1. Wall geometry (60-degree A-frame)
-    wall_height_m = canopy_height_m * 1.25
-    tilt_rad = math.radians(60.0)
-    slant_length_m = wall_height_m / math.sin(tilt_rad)
+def calculate_quartzgate(length_km: float, canopy_height_m: float, thickness_mm: float):
+    # 1. Geometry & Dimensions
+    total_length_m = length_km * 1000.0
+    wall_height_m = canopy_height_m * 1.25  # 1.25x canopy clearance rule
+    tilt_angle_deg = 60.0
+    tilt_rad = math.radians(tilt_angle_deg)
 
-    # Effective linear wall length including 8m parallel overlaps
-    base_length_m = wall_length_km * 1000.0
-    extra_overlap_m = overlap_count * overlap_length_m
-    total_line_m = base_length_m + extra_overlap_m
+    # Sloped panel length along the 60-degree A-frame incline
+    sloped_length_m = wall_height_m / math.sin(tilt_rad)
+    lamella_width_m = 1.0  # Standard 1.0 m interlocking slice width
+    thickness_m = thickness_mm / 1000.0
 
-    # Two opposing 60-degree sides per A-frame line
-    lamellae_per_side = math.ceil(total_line_m / lamella_width_m)
-    total_lamellae = lamellae_per_side * 2
-    area_per_lamella_m2 = lamella_width_m * slant_length_m
-    total_glass_area_m2 = total_lamellae * area_per_lamella_m2
+    # Two opposing 60-degree faces form the A-frame
+    sides = 2
+    lamellae_per_side = math.ceil(total_length_m / lamella_width_m)
+    total_lamellae = lamellae_per_side * sides
 
-    # Opaque micro-bubbled white fused silica mass (density ~ 2050 kg/m3)
-    thickness_m = glass_thickness_mm / 1000.0
-    total_glass_volume_m3 = total_glass_area_m2 * thickness_m
-    total_glass_mass_tons = (total_glass_volume_m3 * 2050.0) / 1000.0
+    # 2. Material Densities & Masses
+    # Opaque micro-bubbled white fused silica density (~2050 kg/m3 vs 2200 for clear)
+    silica_density_kg_m3 = 2050.0
+    single_lamella_vol_m3 = sloped_length_m * lamella_width_m * thickness_m
+    single_lamella_mass_kg = single_lamella_vol_m3 * silica_density_kg_m3
+    total_silica_tonnes = (total_lamellae * single_lamella_mass_kg) / 1000.0
 
-    # 2. Internal basalt fiber composite post-and-beam skeleton & hardware
-    num_posts = math.ceil(total_line_m / post_spacing_m) + 1
-    post_height_m = wall_height_m * 0.85
-    cross_beam_length_m = (wall_height_m / math.tan(tilt_rad)) * 1.1
-    upper_ridge_beam_m = total_line_m
-    total_basalt_length_m = (num_posts * (post_height_m + cross_beam_length_m)) + upper_ridge_beam_m
-    # Approx 14 kg/m for structural hollow basalt fiber composite profile (vs 45 kg/m steel)
-    total_basalt_mass_tons = (total_basalt_length_m * 14.0) / 1000.0
+    # Internal Basalt Fiber Reinforced Polymer (BFRP) post-and-beam skeleton
+    # Vertical center posts every 4.0 m + 2 horizontal cross-beams per bay
+    bays = math.ceil(total_length_m / 4.0)
+    post_length_m = wall_height_m * 0.95
+    beam_length_m = (wall_height_m / math.tan(tilt_rad)) * 2.0
+    total_bfrp_meters = bays * (post_length_m + 2.0 * beam_length_m)
+    bfrp_linear_mass_kg_m = 6.5  # Heavy-duty structural pultruded profile
+    total_bfrp_tonnes = (total_bfrp_meters * bfrp_linear_mass_kg_m) / 1000.0
 
-    # Hourglass X-keys (2 per lamella: upper & lower beam interface)
-    total_x_keys = total_lamellae * 2
-    # Self-locking uplift wedge ground shoes (1 per lamella)
-    total_ground_shoes = total_lamellae
-    # One-way upward-opening ridge pressure/ember flaps (1 per 1.0m apex section)
-    total_ridge_flaps = lamellae_per_side
+    # Hardware: Hourglass X-Keys & 15 cm Expanding Ground Shoes
+    total_x_keys = total_lamellae * 2  # Upper & lower beam locks per lamella
+    total_ground_shoes = total_lamellae  # One 15 cm shoe per lamella base
+    shoe_mass_kg = 2.4  # Galvanized/weathering steel 15 cm wedge anchor
+    total_steel_tonnes = (total_ground_shoes * shoe_mass_kg) / 1000.0
 
-    # 3. Cost Estimation (CAPEX)
-    glass_cost_eur = total_glass_area_m2 * white_silica_price_per_m2_eur
-    basalt_cost_eur = total_basalt_mass_tons * basalt_price_per_ton_eur
-    hardware_cost_eur = (
-        (total_x_keys * 10.0)
-        + (total_ground_shoes * 22.0)  # Expanding wedge anchor shoe
-        + (total_ridge_flaps * 15.0)   # Basalt-hinged ridge flapper plate
-    )
-    solar_foundry_and_hydro_eur = 2_200_000.0 * (wall_length_km / 10.0)
+    # Bentonite labyrinth seal & basalt wool base blanket
+    bentonite_kg = total_lamellae * sloped_length_m * 1.2
+
+    # 3. Realistic Industrial CAPEX Estimate (Factory-Produced Prefab Model)
+    # Estimates based on bulk industrial fused silica (~€3.5/kg) & BFRP (~€18/m)
+    cost_silica_eur = total_silica_tonnes * 1000.0 * 3.50
+    cost_bfrp_eur = total_bfrp_meters * 18.00
+    cost_hardware_eur = (total_ground_shoes * 14.0) + (total_x_keys * 6.5)
+    cost_logistics_install_eur = total_length_m * 220.0  # Rapid pilot-tool ground crew
     total_capex_eur = (
-        glass_cost_eur
-        + basalt_cost_eur
-        + hardware_cost_eur
-        + solar_foundry_and_hydro_eur
+        cost_silica_eur + cost_bfrp_eur + cost_hardware_eur + cost_logistics_install_eur
     )
 
-    # Traditional wildfire crisis cost benchmark (scaled by length)
-    scale = wall_length_km / 10.0
-    crisis_min_eur = 100_000_000.0 * scale
-    crisis_max_eur = 300_000_000.0 * scale
+    # Benchmark: Conventional Wildfire Crisis Intervention + Restoration Cost
+    wildfire_loss_low_eur = length_km * 10_000_000.0
+    wildfire_loss_high_eur = length_km * 30_000_000.0
 
-    return {
-        "wall_length_km": wall_length_km,
-        "canopy_height_m": canopy_height_m,
-        "wall_height_m": round(wall_height_m, 2),
-        "slant_length_m": round(slant_length_m, 2),
-        "total_line_m": round(total_line_m, 1),
-        "total_lamellae": total_lamellae,
-        "total_glass_area_m2": round(total_glass_area_m2, 1),
-        "total_glass_mass_tons": round(total_glass_mass_tons, 1),
-        "num_posts": num_posts,
-        "total_basalt_mass_tons": round(total_basalt_mass_tons, 1),
-        "total_x_keys": total_x_keys,
-        "total_ground_shoes": total_ground_shoes,
-        "total_ridge_flaps": total_ridge_flaps,
-        "glass_cost_eur": round(glass_cost_eur),
-        "basalt_cost_eur": round(basalt_cost_eur),
-        "hardware_cost_eur": round(hardware_cost_eur),
-        "foundry_hydro_eur": round(solar_foundry_and_hydro_eur),
-        "total_capex_eur": round(total_capex_eur),
-        "crisis_min_eur": round(crisis_min_eur),
-        "crisis_max_eur": round(crisis_max_eur),
-    }
-
-
-def print_report(data: dict) -> None:
-    print("=" * 68)
-    print("🔥 QUARTZGATE STRUCTURAL & ECONOMIC REPORT (OPAQUE WHITE SILICA)")
-    print("=" * 68)
-    print(f"Protected Perimeter Length : {data['wall_length_km']} km (Total line: {data['total_line_m']} m)")
-    print(f"Local Canopy Height        : {data['canopy_height_m']} m -> Wall Height (Hw): {data['wall_height_m']} m")
-    print(f"60° Lamella Slant Length   : {data['slant_length_m']} m")
-    print("-" * 68)
-    print("📦 BILL OF MATERIALS (BOM)")
-    print(f"White Silica Lamellae      : {data['total_lamellae']:,} pcs ({data['total_glass_area_m2']:,} m²)")
-    print(f"Opaque White Silica Mass   : {data['total_glass_mass_tons']:,} metric tons (2,050 kg/m³)")
-    print(f"Basalt Composite Skeleton  : {data['num_posts']:,} frames ({data['total_basalt_mass_tons']:,} tons)")
-    print(f"Hourglass (X-Key) Locks    : {data['total_x_keys']:,} pcs")
-    print(f"Uplift Wedge Ground Shoes  : {data['total_ground_shoes']:,} pcs")
-    print(f"One-Way Ridge Ember Flaps  : {data['total_ridge_flaps']:,} pcs")
-    print("-" * 68)
-    print("💶 ESTIMATED CAPEX vs. WILDFIRE CRISIS COST")
-    print(f"In-Situ White Silica Cost  : €{data['glass_cost_eur']:,}")
-    print(f"Basalt Fiber Skeleton      : €{data['basalt_cost_eur']:,}")
-    print(f"X-Keys, Wedges & Flaps     : €{data['hardware_cost_eur']:,}")
-    print(f"Solar Foundry & Hydro Grid : €{data['foundry_hydro_eur']:,}")
-    print(f"TOTAL QUARTZGATE CAPEX     : €{data['total_capex_eur']:,} (Low-maintenance OPEX)")
-    print(f"Unprotected Crisis Loss    : €{data['crisis_min_eur']:,} – €{data['crisis_max_eur']:,} per event")
-    print("=" * 68)
+    # 4. Formatted Output Report
+    print("=" * 65)
+    print(f" QUARTZGATE BOM & CAPEX REPORT ({length_km:.1f} km Perimeter)")
+    print("=" * 65)
+    print(f"Target Canopy Height      : {canopy_height_m:.1f} m")
+    print(f"Calibrated Wall Height    : {wall_height_m:.2f} m (1.25x rule)")
+    print(f"60° Sloped Panel Length   : {sloped_length_m:.2f} m")
+    print(f"Lamella Thickness         : {thickness_mm:.0f} mm (Opaque White Fused Silica)")
+    print("-" * 65)
+    print("STRUCTURAL QUANTITIES:")
+    print(f"  • Quartz Lamellae (1m)  : {total_lamellae:,} pcs ({total_silica_tonnes:,.1f} tonnes)")
+    print(f"  • Single Panel Mass     : {single_lamella_mass_kg:,.1f} kg")
+    print(f"  • BFRP Internal Frame   : {total_bfrp_meters:,.0f} m ({total_bfrp_tonnes:,.1f} tonnes)")
+    print(f"  • Hourglass X-Keys      : {total_x_keys:,} pcs")
+    print(f"  • 15cm Ground Shoes     : {total_ground_shoes:,} pcs ({total_steel_tonnes:,.1f} tonnes)")
+    print(f"  • Bentonite Sealant     : {bentonite_kg:,.0f} kg")
+    print("-" * 65)
+    print("ESTIMATED CAPEX (PREFAB FACTORY SUPPLY + RAPID INSTALL):")
+    print(f"  • Fused Silica Panels   : €{cost_silica_eur:,.0f}")
+    print(f"  • Basalt Fiber Frame    : €{cost_bfrp_eur:,.0f}")
+    print(f"  • X-Keys & Ground Shoes : €{cost_hardware_eur:,.0f}")
+    print(f"  • Transport & Install   : €{cost_logistics_install_eur:,.0f}")
+    print(f"  ► TOTAL ESTIMATED CAPEX : €{total_capex_eur:,.0f} (€{total_capex_eur/length_km:,.0f} / km)")
+    print("-" * 65)
+    print(f"Avoided Wildfire Damage   : €{wildfire_loss_low_eur:,.0f} – €{wildfire_loss_high_eur:,.0f}")
+    print("=" * 65)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="QuartzGate BOM & Cost Calculator")
-    parser.add_argument("--km", type=float, default=10.0, help="Perimeter length in km (default: 10.0)")
-    parser.add_argument("--canopy", type=float, default=20.0, help="Local canopy height in meters (default: 20.0)")
-    parser.add_argument("--thickness", type=float, default=50.0, help="Glass thickness in mm (default: 50.0)")
+    parser = argparse.ArgumentParser(description="QuartzGate Parametric BOM Calculator")
+    parser.add_argument("--km", type=float, default=10.0, help="Firewall perimeter length in km")
+    parser.add_argument("--canopy", type=float, default=20.0, help="Average forest canopy height in meters")
+    parser.add_argument("--thickness", type=float, default=50.0, help="Quartz lamella thickness in mm")
     args = parser.parse_args()
 
-    result = calculate_quartzgate(
-        wall_length_km=args.km,
-        canopy_height_m=args.canopy,
-        glass_thickness_mm=args.thickness,
-    )
-    print_report(result)
+    calculate_quartzgate(args.km, args.canopy, args.thickness)
