@@ -143,9 +143,13 @@ The system utilizes **Opaque Micro-Bubbled White Fused Silica (White Quartz Glas
 - **Thermal Shock Immunity:** Possessing a near-zero coefficient of thermal expansion ($0.5 \times 10^{-6} \text{ K}^{-1}$), it withstands extreme temperature differentials (such as a 1000°C firefront against 20°C ambient air) without shattering.
 - **High-Temperature Rigidity:** With a continuous operating threshold of **1200°C** and a softening point above **1600°C**, the material retains its geometric rigidity during direct crown fire contact where structural steel would buckle.
 - **Chemical Immortality:** Being chemically inert, it avoids the atmospheric corrosion, biological decay, and UV degradation common to metals, timber, and polymers.
-## 🏭 6. In-Situ Solar Thermal Foundry (On-Site Lamella Production)
 
-A 100% off-grid, low-maintenance continuous solar foundry framework designed to manufacture 4-layer opaque white fused silica fire-shield lamellae directly on-site from local silica sand (SiO₂) using concentrated solar thermal energy, gravity, and Carbon-Carbon (C/C) tooling.
+## 🏭 6. Modular Off-Site Prefabrication & Rapid Field Logistics
+
+Rather than complex on-site glass smelting, QuartzGate relies on standardized **1.0-meter-wide factory-cast opaque white fused silica panels** and pultruded **Basalt Fiber Reinforced Polymer (BFRP)** profiles:
+* **Zero-Custom-Cut Logistics:** Because the straight vertical tongue-and-groove joints slide independently along the 60-degree tilt, every lamella is an identical rectangular module that stacks flat on standard forestry trailers.
+* **Rapid Mechanical Assembly:** Lightweight 10–15 cm expanding ground shoes and dry hourglass X-keys allow field crews to erect permanent firebreaks without concrete curing times, welding, or heavy crane infrastructure.
+
 
 ### 6.1. Hybrid Energy & Optical Core (X-Flux Core)
 
@@ -322,16 +326,16 @@ Command Tower & Visual Signaling Matrix (Side Profile):
 
 To evaluate the true return on investment (ROI) of the QuartzGate framework, the initial production cost of fused silica must be directly cross-referenced against the multi-decade lifecycle maintenance costs and the catastrophic reality of an unprotected ecosystem breakout.
 
-### 10.1. Financial Comparison (Based on a 10 km Reference Line / 25 m Height)
+### 10.1. Financial Comparison (10 km / 25 m Reference Line)
 
-| Financial Phase | Traditional Reactive Model (No Wall) | QuartzGate Passive Architecture (Option B) |
+| Financial Phase | Traditional Reactive Model (No Wall) | QuartzGate Passive Architecture |
 | :--- | :--- | :--- |
-| **Initial Capital Expenditure (CAPEX)** | **€0** (No upfront structural infrastructure). | **~€33,400,000** (One-time in-situ white silica foundry, basalt skeleton & gravity grid setup). |
-| **50-Year Operational Maintenance (OPEX)** | **Variable / High** (Continuous fuel management, firebreak clearing, heavy machine deployment). | **Low / Minimal** (Inert white silica & basalt frame; periodic replacement of C/C foundry consumables & ridge flap inspections). |
-| **Active Suppression Phase Costs** | **€15,000,000 – €40,000,000** (Emergency deployment of water-bombers, aviation fuel, and emergency personnel per major crisis). | **Near Zero** (Automated pre-wetting uses zero-grid gravity-fed water vectors targeted within localized sectors). |
-| **Direct Property & Asset Losses** | **€30,000,000 – €70,000,000** (Total destruction of local economic timber reserves, structures, tourist hubs, and utility grids). | **Minimized** (The firefront is structurally contained at the initial sector entry point; assets behind the A-frame remain 100% intact). |
-| **Post-Fire Ecological & Soil Restoration** | **€50,000,000 – €150,000,000** (Massive soil erosion control, mandatory clearing of dead hazards, long-term multi-thousand-hectare replanting). | **€0** (The soil core and surrounding root matrix are fully preserved behind the protective barrier). |
-| **Total Interventions Per Major Crisis** | 🟥 **€100,000,000 – €300,000,000** (Single catastrophic cash drain + 60–80 years of total economic and ecological recovery time). | 🟩 **~€33,400,000** (Fixed permanent insurance. The structure stands intact post-fire, ready for immediate subsequent threats). |
+| **Initial CAPEX** | €0 | ~€15,800,000 (Prefabricated white silica & BFRP frame) |
+| **50-Year OPEX** | Variable / High (Fuel management, clearing, machinery) | Low / Minimal (Periodic inspections) |
+| **Active Suppression** | €15M – €40M per crisis (Water-bombers, aviation, personnel) | Near Zero (Automated gravity-fed targeted pre-wetting) |
+| **Property & Asset Losses** | €30M – €70M (Destruction of timber, structures, utilities) | Minimized (Firefront structurally contained) |
+| **Post-Fire Restoration** | €50M – €150M (Erosion control, hazard clearing, replanting) | €0 (Soil and root matrix preserved) |
+| **Total per Crisis** | 🟥 €100M – €300M (Catastrophic drain + decades of recovery) | 🟩 ~€15,800,000 (Fixed permanent structure, ready for repeat events) |
 
 ### 10.2. Fused Silica Investment Rationalization
 
