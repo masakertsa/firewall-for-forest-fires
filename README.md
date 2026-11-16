@@ -362,68 +362,6 @@ To saturate the funnel choke zone ahead of an approaching fire front without ele
 * **Tailwind Ballistic Advantage & Co-Location:** Because the artificial reservoir is already positioned upwind of the high-risk forest sector, co-locating the mechanical launcher along the reservoir berm allows launches to fire **downwind**. The prevailing tailwind adds aerodynamic carry and range to the biodegradable capsule swarm while allowing direct gravity-fed capsule filling right from the basin.
 * **Buying 30–90 Minutes for First Responders:** The saline brine spikes surface fuel moisture and leaves behind a non-combustible crystalline mineral layer that resists rapid solar evaporation. This stalls or drastically slows the advancing fire front against the QuartzGate wall, preserving the perimeter until municipal fire crews and aircraft arrive on scene.
 
-## 🏭 14. Off-Grid In-Situ Manufacturing: Hybrid Solar-Thermite C/C & Fused Silica Foundry (v2.0)
-
-To enable decentralized, zero-grid production of **Opaque Micro-Bubbled White Fused Silica** lamellae and reusable **Carbon-Carbon (C/C)** tooling directly near high-risk forestry perimeters, QuartzGate integrates a two-reactor closed-loop manufacturing ecosystem:
-
-```text
-Closed-Loop Manufacturing Ecosystem:
-
-   [ CONCENTRATED SUNLIGHT ☀️ ]
-                 │
-                 ▼
-   ┌───────────────────────────┐
-   │  DUAL-QUARTZ SOLAR        │  ──► Pyrolysis & Densification (900–1500 °C)
-   │  FURNACE (Optical Oven)   │  ──► Produces: C/C Rollers, Molds & Quartz Tubes
-   └─────────────┬─────────────┘
-                 │ (Supplies non-wetting C/C tooling)
-                 ▼
-   ┌───────────────────────────┐
-   │  HORIZONTAL THERMITE      │  ──► Exothermic Fusion (>2000 °C, 24/7 All-Weather)
-   │  FOUNDRY (Casting Bed)    │  ──► Produces: Opaque Quartz Lamellae & Modules
-   └───────────────────────────┘
-```
-
-### 14.1. Horizontal Thermite-Roller Foundry (24/7 All-Weather Casting)
-Eliminating tall vertical melting towers, delicate lenses, and hazardous molten glass pouring, the v2.0 foundry lays the Carbon-Carbon (C/C) mold flat on a horizontal bed inside a standard mobile shipping container or forestry trailer:
-
-```text
-Side Cross-Section (Horizontal C/C Mold & Two-Stage Roller):
-
-   [ C/C ROLLER 1: Compaction & Slag Skimming ]     [ C/C ROLLER 2: Smooth Finish & Cooling ]
-                   (  O  )   ---> Travel Vector --->         (  O  )
-   ═══════════════════════════════════════════════════════════════════════════════════════════
-   │ ░░░░░░░░░░░░░░░ Molten / Solidifying Opaque Fused Silica (100% Smooth Top) ░░░░░░░░░░░ │
-   └───────────────────────────────\_______/────────────────────────────────────────────────┘
-   ═══════════════════════════════════════════════════════════════════════════════════════════
-   [ Static C/C Base Mold (Machined Dovetail Groove & Tongue-and-Groove Side Profiles) ]
-```
-
-* **Static Bottom-Groove Mold:** Raw silica sand (SiO₂) and calibrated thermite strips (iron oxide + aluminum powder) are loaded cold into a flat C/C base mold. All male/female tongue-and-groove edges and the shallow undercut dovetail groove (`\_______/`) for the hourglass X-key are machined directly into the static C/C base plate and side rails.
-* **Inherent Opaque Micro-Bubble Structure:** Rapid, non-vacuum thermite ignition releases >2000 °C inside the silica matrix and naturally traps millions of microscopic gas bubbles—creating the exact **Opaque White Fused Silica** microstructure needed to reflect >90% of wildfire infrared radiation, while molten iron/alumina slag separates cleanly to the top surface and perimeter traps.
-* **Two-Stage C/C Roller Compaction & Quenching:** Under an inert gas (nitrogen/argon) hood, **Roller 1** compacts the semi-molten silica into the base grooves and skims floating slag into end trays, while cooler **Roller 2** irons the fire-facing top surface glass-smooth and draws heat out at a controlled rate without sticking.
-* **Frictionless Horizontal Extraction:** A hinged or wedge-locked C/C end-gate swings open at the discharge end. Because fused silica exhibits zero wetting or adhesion to graphitized C/C (whose mechanical strength increases up to 2200 °C), the finished 1.0 m lamella slides out flat onto an annealing rack with minimal push force and zero bending stress.
-
-### 14.2. Optical Dual-Quartz Solar Furnace & Circular Waste Upcycling
-To manufacture and densify the non-wetting C/C rollers and base molds without electrical resistance heaters, the system uses a concentric **Dual-Quartz Solar Furnace** that double-functions as an off-grid pyrolysis refinery:
-
-```text
-Dual-Quartz Gas Curtain & Optical Heat Trap (Cross-Section):
-
-   [ Outer Clear Quartz Wall (Remains 100% clean & cooler) ]
-   ═══════╤═════════════════════════════════════════════╤═══════
-          │  --> Preheated Inert Gas (Ar / N₂) Flow --> │
-   ═══════╧═══════╗    (Alternating Vent)     ╔═════════╧═══════
-   [ Inner Hot Quartz Wall (>400 °C, prevents tar condensation) ]
-                  ▼                           ▼
-            [ C/C Workpiece / Roller (900–1100 °C) ]
-                  │
-                  └──► [ Pyrolysis Vapors & Volatiles Exhaust ]
-```
-
-* **Self-Cleaning Preheated Gas Curtain:** Inert gas (argon or nitrogen) preheats between two concentric fused-quartz walls before venting inward through alternating ports—keeping the hot inner wall (>400 °C) free of soot and phenolic tars so the outer optical window remains 100% transparent to concentrated sunlight.
-* **Zero-Acid E-Waste & Plastic Upcycling:** Operating at 450–900 °C in an oxygen-free chamber, the solar furnace cleanly pyrolyzes non-recyclable plastics and Printed Circuit Boards (PCBs)—recovering unoxidized metals ($Cu, Au, Ag, Sn$), liquid pyrolysis oil, syngas ($H_2, CH_4$), and high-purity **carbon black** (fed directly back into C/C composite tooling and thermite mixtures), while an alkaline calcium oxide/sodium carbonate scrubber neutralizes corrosive $HCl$ and $HBr$ gases into harmless mineral salts.
-
 📄 License
 
 This project is licensed under the MIT License – Copyright (c) 2026 masakertsa.
