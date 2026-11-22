@@ -108,12 +108,27 @@ Installation Tool (Pilot Tool) Operating Principle:
 To avoid heavy cranes and allow transport on standard forestry trailers, tall firebreak walls are assembled from stackable **2.0 m and 4.0 m modules** laid in a **50% staggered running bond**:
 
 Side Cross-Section (Horizontal Stackable Joint):
-           ^         <-- Top Ridge Apex (Sheds rainwater outward; prevents freeze-jacking)
-         _/ \_       <-- Flat Load-Bearing Shoulders (Transfers vertical weight safely)
-         | | |       
-         | | |       <-- Centered Lateral Tongue-and-Groove (Continuous sliding channel)
-         | | |       
-         |_^_|       <-- Bottom Inverted V-Groove (Gravity-locks onto lower module ridge)
+```mermaid
+graph TD
+    subgraph "50% Staggered Running Bond (Front View)"
+        Col1["Column 1:<br/>4m Top -> 4m Mid -> 4m Base"]
+        Col2["Column 2 (Offset 2m):<br/>2m Cap -> 4m Mid -> 4m Mid -> 2m Starter"]
+        Col3["Column 3:<br/>4m Top -> 4m Mid -> 4m Base"]
+    end
+
+    subgraph "Horizontal Stackable Joint (Side Profile)"
+        Upper["Upper Module Bottom:<br/>Inverted V-Groove + Flat Shoulders"]
+        Slurry["Brush-Applied Bentonite Slurry<br/>(Slip-lubricant -> Ceramic seal)"]
+        Lower["Lower Module Top:<br/>Upward Ridge Apex (Sheds water) + Flat Shoulders"]
+        
+        Upper -->|Gravity self-centering| Slurry
+        Slurry --> Lower
+    end
+
+    style Slurry fill:#E67E22,stroke:#333,stroke-width:2px,color:#fff
+    style Upper fill:#AED6F1,stroke:#333,stroke-width:2px
+    style Lower fill:#AED6F1,stroke:#333,stroke-width:2px
+```
 
 - **50% Staggered Running Bond (2m & 4m Lengths):** Alternating columns start with either a 2.0 m or 4.0 m starter module and continue upward with standard 4.0 m modules (capped with 2.0 m/4.0 m pieces at the top). Using only two factory sizes offsets every horizontal joint by 2.0 meters across adjacent columns, maximizing lateral wind rigidity without field cutting.
 - **Self-Centering Ridge & V-Groove:** Each module features an upward-pointing ridge with flat load-bearing shoulders on top and an inverted V-groove on the bottom. Gravity automatically centers upper modules onto lower ones while shedding rainwater outward so moisture never pools or freezes inside the joint.
