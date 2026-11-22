@@ -101,6 +101,22 @@ Installation Tool (Pilot Tool) Operating Principle:
 *   **Resource Efficiency (70% Metal Mass Saved):** Once the 50 cm pilot trench is opened, the tool is extracted along its 60-degree path for immediate reuse. A short, lightweight, 10–15 cm permanent metallic ground shoe is then dropped into the finished slot to receive the glass element. This process saves 70% of structural metal mass per kilometer compared to continuous subterranean tracks.
 *   **Self-Locking Uplift Wedge Anchor:** To prevent extreme firestorm wind suction (uplift) from pulling the 60-degree A-frame out of the soil, the ground shoe incorporates a two-piece **expanding wedge anchor**. Installed in a narrow profile into the 50 cm pilot trench, any upward tensile force draws the central conical wedge upward, forcing lateral anchor wings outward into undisturbed soil and beneath the root matrix—locking tighter the harder the wind pulls.
 *   **Root Matrix Preservation:** The 50 cm wedge slices through small root networks rather than tearing them out like heavy excavators. This preserves the surrounding soil integrity and natural root binding.
+*   **Brush-Applied Mineral Slurry Seal (Field-Applied):** Before lowering each module into place, installers brush a water-based **bentonite clay and volcanic basalt slurry** (paint-like consistency) directly onto the vertical U-grooves and horizontal ridge/V-joints. Wet during assembly, the slurry acts as an immediate slip-lubricant so heavy glass modules slide smoothly into alignment without binding; once dry, it forms a weather-resistant mineral gasket that vitrifies into a solid, airtight ceramic seal under extreme fire heat.
+
+### 2.2. Staggered 2m / 4m Stackable Modules & Ridge/V-Groove Joint
+
+To avoid heavy cranes and allow transport on standard forestry trailers, tall firebreak walls are assembled from stackable **2.0 m and 4.0 m modules** laid in a **50% staggered running bond**:
+
+Side Cross-Section (Horizontal Stackable Joint):
+           ^         <-- Top Ridge Apex (Sheds rainwater outward; prevents freeze-jacking)
+         _/ \_       <-- Flat Load-Bearing Shoulders (Transfers vertical weight safely)
+         | | |       
+         | | |       <-- Centered Lateral Tongue-and-Groove (Continuous sliding channel)
+         | | |       
+         |_^_|       <-- Bottom Inverted V-Groove (Gravity-locks onto lower module ridge)
+
+- **50% Staggered Running Bond (2m & 4m Lengths):** Alternating columns start with either a 2.0 m or 4.0 m starter module and continue upward with standard 4.0 m modules (capped with 2.0 m/4.0 m pieces at the top). Using only two factory sizes offsets every horizontal joint by 2.0 meters across adjacent columns, maximizing lateral wind rigidity without field cutting.
+- **Self-Centering Ridge & V-Groove:** Each module features an upward-pointing ridge with flat load-bearing shoulders on top and an inverted V-groove on the bottom. Gravity automatically centers upper modules onto lower ones while shedding rainwater outward so moisture never pools or freezes inside the joint.
 
 ---
 ## 🦌 3. Wide-Clearance 8m Overlapping Passages (Non-Mechanical Portals)
