@@ -125,9 +125,9 @@ graph TD
         Slurry --> Lower
     end
 
-    style Slurry fill:#E67E22,stroke:#333,stroke-width:2px,color:#fff
-    style Upper fill:#AED6F1,stroke:#333,stroke-width:2px
-    style Lower fill:#AED6F1,stroke:#333,stroke-width:2px
+    style Slurry fill:#ea580c,stroke:#fb923c,stroke-width:2px,color:#fff
+    style Upper fill:#1e3a8a,stroke:#60a5fa,stroke-width:2px,color:#fff
+    style Lower fill:#1e3a8a,stroke:#60a5fa,stroke-width:2px,color:#fff
 ```
 
 - **50% Staggered Running Bond (2m & 4m Lengths):** Alternating columns start with either a 2.0 m or 4.0 m starter module and continue upward with standard 4.0 m modules (capped with 2.0 m/4.0 m pieces at the top). Using only two factory sizes offsets every horizontal joint by 2.0 meters across adjacent columns, maximizing lateral wind rigidity without field cutting.
