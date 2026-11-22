@@ -107,6 +107,8 @@ Installation Tool (Pilot Tool) Operating Principle:
 
 To avoid heavy cranes and allow transport on standard forestry trailers, tall firebreak walls are assembled from stackable **2.0 m and 4.0 m modules** laid in a **50% staggered running bond**:
 
+![Top Ridge And Bottom Groove](./Top%20Ridge%20And%20Bottom%20Groove.png)
+
 Side Cross-Section (Horizontal Stackable Joint):
 ```mermaid
 graph TD
