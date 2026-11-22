@@ -160,11 +160,13 @@ NORTH WALL (Fire / Wind Shield)
 
 The forest region is partitioned by radial, star-patterned QuartzGate walls extending outward from a central circular command and monitor hub (equipped with automated water cannons). The sectors are mapped according to dominant regional wind patterns (e.g., south/southwesterly winds):
 
-Top-Down Macro Layout (Radial Funnel Sectoring & Central Command Hub):
-![QuartzGate Radial Funnel Sectoring & Central Hub](quartzgate-macro-layout(1).png)
+**Top-Down Macro Layout (Radial Funnel Sectoring, Wind-Shielded 8m Portals & Central Command Hub):**
 
-*   **The Funnel Effect:** Sectors tapering inward from the outer perimeter force the advancing firefront into a narrowing funnel. This compresses the fire's surface area to its absolute minimum, allowing the central water cannons to concentrate their entire payload directly into the choke point rather than sweeping across a wide arc.
-*   **Wind-Aligned Campsite Sectoring:** Public camping and recreation zones are strictly restricted to downwind (northern/northeastern) sectors relative to the main forest body. If human negligence triggers a fire, the prevailing winds carry the embers and smoke directly *outward* toward the empty outer perimeter, completely neutralizing the risk of destroying the core reservation or the automated command hub.
+![QuartzGate Radial Funnel Sectoring & Central Hub](./quartzgate-macro-layout(1).png)
+
+- **The Funnel Effect:** Tapering sectors compress the advancing firefront toward the center, allowing the main water cannons to concentrate their output on a narrow choke point.
+- **Wind-Oriented 8m Overlapping Portals:** Perimeter and sector passages are shielded against prevailing south/southwesterly winds, forcing wind-driven embers to hit solid quartz and make sharp 90-degree turns instead of blowing straight through.
+- **Wind-Aligned Campsite Sectoring:** Public camping and recreation zones are placed downwind (north/northeast), ensuring any accidental fires blow outward toward the empty perimeter rather than endangering the core or command hub.
 
 ---
 
