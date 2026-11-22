@@ -356,7 +356,7 @@ Unlike standard commercial retardants that leave toxic residues, the selected ch
 The repository includes two standalone, zero-dependency Python scripts for scaling the architecture to any forest perimeter:
 
 - **`quartzgate_calculator.py`:** Computes fused silica lamellae count, internal basalt fiber composite post-and-beam tonnage, hourglass X-keys, ground shoes, and CAPEX vs. wildfire loss benchmarks (`python quartzgate_calculator.py --km 10 --canopy 20 --thickness 50`).
-- **`quartzgate_dxf_generator.py`:** Generates a 1:1 millimeter DXF cross-section file of the tri-feature lamella and hourglass lock (`python quartzgate_dxf_generator.py --width 1000 --thickness 50`).
+- **`quartzgate_dxf_generator.py`:** Generates a 1:1 millimeter DXF cross-section file of the tri-feature lamella and hourglass lock (`python quartzgate_dxf_generator.py --width 1000 --thickness 12`).
 
 ## ⏳ 13. Golden Hour Time-Buying Architecture: Windward Thermal Reservoir & Sector-Indexed Ballistic Pre-Wetting
 
